@@ -3,7 +3,7 @@ import TabItem from "./TabItem";
 import { CBMFirst, CBMSecond, CBMThird } from "./crossBorderMoney-contents";
 
 const CrossBorderMoneyTabs = () => {
-  const [activeTab, setActiveTab] = useState("");
+  const [activeTab, setActiveTab] = useState("tab-1518");
   return (
     <div className="ot-tabs">
       <ul className="tabs-heading unstyle">
