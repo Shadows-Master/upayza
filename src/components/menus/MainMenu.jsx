@@ -4,14 +4,12 @@ const MainMenu = () => {
   return (
     <ul className="menu">
       <li>
-        <a>
-          <Link
-            to={""}
-            className="menu-item-has-children current-menu-item current-menu-ancestor"
-          >
-            Home
-          </Link>
-        </a>
+        <Link
+          to={""}
+          className="menu-item-has-children current-menu-item current-menu-ancestor"
+        >
+          Home
+        </Link>
       </li>
       <li>
         <Link to={"#"} className="menu-item-has-children">
@@ -23,14 +21,14 @@ const MainMenu = () => {
               About us
             </Link>
           </li>
-          <li>
+          {/*<li>
             <a href="#">Why Choose Us</a>
           </li>
           <li>
             <Link to={"/company/our-team"} href="#">
               Our team
             </Link>
-          </li>
+          </li>*/}
         </ul>
       </li>
       <li>
@@ -56,25 +54,25 @@ const MainMenu = () => {
         </NavLink>
         <ul className="sub-menu">
           <li>
-            <a href="#">Banks</a>
+            <Link to={"#"}>Banks</Link>
           </li>
           <li>
-            <a href="#">Digital Merchants</a>
+            <Link to={"#"}>Digital Merchants</Link>
           </li>
           <li>
-            <a href="#">Creator Economy</a>
+            <Link to={"#"}>Creator Economy</Link>
           </li>
           <li>
-            <a href="#">Mobile Wallets</a>
+            <Link to={"#"}>Mobile Wallets</Link>
           </li>
           <li>
-            <a href="#">Money Transfer Operators</a>
+            <Link to={"#"}>Money Transfer Operators</Link>
           </li>
           <li>
-            <a href="#">Payment Service Providers</a>
+            <Link to={"#"}>Payment Service Providers</Link>
           </li>
           <li>
-            <a href="#">Platforms and Marketplaces</a>
+            <Link to={"#"}>Platforms and Marketplaces</Link>
           </li>
         </ul>
       </li>

@@ -6,41 +6,47 @@ const MobileMenu = () => {
       <div className="mobile_nav collapse">
         <ul id="menu-main-menu" className="mobile_mainmenu">
           <li>
-            <a>
-              <Link
-                to={""}
-                className="menu-item-has-children current-menu-item current-menu-ancestor"
-              >
-                Home
-              </Link>
-            </a>
+            <Link
+              to={""}
+              className="menu-item-has-children current-menu-item current-menu-ancestor"
+            >
+              Home
+            </Link>
           </li>
           <li>
-            <NavLink className="menu-item-has-children" to={"/company"}>
+            <Link to={"#"} className="menu-item-has-children">
               Company
-            </NavLink>
+            </Link>
             <ul className="sub-menu">
               <li>
-                <a href="#">About us</a>
+                <Link to={"/company/about"} href="#">
+                  About us
+                </Link>
               </li>
-              <li>
-                <a href="#">Why Choose Us</a>
-              </li>
-              <li>
-                <a href="#">Our team</a>
-              </li>
+              {/*<li>
+            <a href="#">Why Choose Us</a>
+          </li>
+          <li>
+            <Link to={"/company/our-team"} href="#">
+              Our team
+            </Link>
+          </li>*/}
             </ul>
           </li>
           <li>
-            <NavLink className="menu-item-has-children" to={"/services"}>
+            <NavLink className="menu-item-has-children" to={""}>
               Services
             </NavLink>
             <ul className="sub-menu">
               <li>
-                <a href="#">Cross-border money Transfer</a>
+                <Link to={"/services/cross-border-money"}>
+                  Cross-border money Transfer
+                </Link>
               </li>
               <li>
-                <a href="#">Interoperable Mobile Payment</a>
+                <Link to={"/services/interoperable-mobile-payment"}>
+                  Interoperable Mobile Payment
+                </Link>
               </li>
             </ul>
           </li>
@@ -50,25 +56,25 @@ const MobileMenu = () => {
             </NavLink>
             <ul className="sub-menu">
               <li>
-                <a href="#">Banks</a>
+                <Link to={"#"}>Banks</Link>
               </li>
               <li>
-                <a href="#">Digital Merchants</a>
+                <Link to={"#"}>Digital Merchants</Link>
               </li>
               <li>
-                <a href="#">Creator Economy</a>
+                <Link to={"#"}>Creator Economy</Link>
               </li>
               <li>
-                <a href="#">Mobile Wallets</a>
+                <Link to={"#"}>Mobile Wallets</Link>
               </li>
               <li>
-                <a href="#">Money Transfer Operators</a>
+                <Link to={"#"}>Money Transfer Operators</Link>
               </li>
               <li>
-                <a href="#">Payment Service Providers</a>
+                <Link to={"#"}>Payment Service Providers</Link>
               </li>
               <li>
-                <a href="#">Platforms and Marketplaces</a>
+                <Link to={"#"}>Platforms and Marketplaces</Link>
               </li>
             </ul>
           </li>
