@@ -1,0 +1,12 @@
+export { default as Company } from "./Company";
+export { default as Services } from "./Services";
+export { default as WhoWeServe } from "./WhoWeServe";
+export { default as Network } from "./Network";
+export { default as Contacts } from "./Contacts";
+export { default as Home } from "./Home";
+export { default as Main } from "./Main";
+export { default as AppView } from "./AppView";
+export { default as About } from "./company_views/AboutUs";
+export { default as Teams } from "./company_views/Teams";
+export { default as CrossBorderMoney } from "./services_views/CrossBorderMoney";
+export { default as InteroperableMobile } from "./services_views/InteroperableMoney";

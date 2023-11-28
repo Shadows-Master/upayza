@@ -1,0 +1,17 @@
+export { default as Footer } from "./footer/Footer";
+export { default as Header } from "./header/Header";
+export { default as HeaderMain } from "./header/HeaderMain";
+export { default as FooterMain } from "./footer/FooterMain";
+export { default as SVGIconMainOne } from "./svg-components/SvgIconMainOne";
+export { default as SVGIconMainTwo } from "./svg-components/SvgIconMainTwo";
+export { default as SVGIconMainThree } from "./svg-components/SvgIconMainThree";
+export { default as SVGIconMainFour } from "./svg-components/SvgIconMainFour";
+export { default as SVGIconMainFive } from "./svg-components/SvgIconMainFive";
+export { default as SVGIconMainSix } from "./svg-components/SvgIconMainSix";
+export { default as SVGIconMainSeven } from "./svg-components/SvgIconMainSix";
+export { default as Navigation } from "./Navigation";
+export { default as HeaderMobile } from "./HeaderMobile";
+export { default as MainMenu } from "./menus/MainMenu";
+export { default as MobileMenu } from "./menus/MobileMenu";
+export { default as SocialMediaComponent } from "./SocialMediaComponent";
+export { default as ComingSoon } from "./ComingSoon";
