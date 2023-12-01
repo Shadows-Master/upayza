@@ -454,9 +454,9 @@ const AboutUs = () => {
                     <a href="">Corporate disbursement</a>
                   </h5>
                   <p>
-                    Power your growth with Upayza's global payment
-                    solutions—eliminating barriers for fast, affordable, and
-                    transparent transactions across your global network.
+                    Power your growth with Upayza eliminating barriers for fast,
+                    affordable, and transparent transactions across your global
+                    network.
                   </p>
                 </div>
               </div>
