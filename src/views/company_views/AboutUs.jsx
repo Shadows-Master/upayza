@@ -485,9 +485,8 @@ const AboutUs = () => {
                   <h5>
                     <a href="#">Mobile Payment Interoperability</a>
                   </h5>
-                  <p>
-                    Fosters collaboration, interoperability for mobile payment
-                    providers.
+                  <p className="mt-1">
+                    Fosters collaboration, interoperability for mobile payment.
                   </p>
                 </div>
               </div>
