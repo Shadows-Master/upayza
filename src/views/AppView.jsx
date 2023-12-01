@@ -22,11 +22,10 @@ function AppView() {
             <div className="row">
               <div className="col-md-12 text-center">
                 <div className="ot-heading">
-                  <span>One-Top Services</span>
                   <h2 className="main-heading">
-                    Upayza global facilitator of interoperable &amp;
+                    Experience a universal payment ecosystem
                     <br />
-                    cross-border mobile money transactions{""}
+                    enabling limitless cross-border transfers.{""}
                   </h2>
                 </div>
                 <div className="space-10"></div>
@@ -54,15 +53,23 @@ function AppView() {
               <div className="col-lg-6 col-md-12 align-self-center">
                 <div className="about-desc-6">
                   <div className="ot-heading s2">
-                    <span>Introduce</span>
-                    <h2 className="main-heading">What’s Upayza purpose?</h2>
+                    <h2 className="main-heading">
+                      Creating a worldwide payment ecosystem
+                    </h2>
                   </div>
-                  <p>
-                    We connect every part of the world and make the global
-                    economy available to everyone.
+                  <p className="text-justify">
+                    Upayza is building a comprehensive global payment
+                    infrastructure to enhance the payment experience. Through a
+                    seamless connection to Upayzas' APIs, your business and
+                    customers gain the capability to effortlessly send and
+                    receive payments globally, instantly reaching every corner
+                    of the world.
+                    <br /> <br /> We provide convergence and interoperability.
+                    Our mission is to empower our partners in scaling their
+                    digital payment strategies
                   </p>
-                  <div className="space-30"></div>
-                  <ul className="style-none">
+                  <div className="space-10"></div>
+                  {/*<ul className="style-none">
                     <li>
                       <i className="fas fa-check"></i> Contribute to progress,
                       financial inclusion
@@ -80,7 +87,7 @@ function AppView() {
                       <i className="fas fa-check"></i> Streamlining financial
                       processes, enhancing security...
                     </li>
-                  </ul>
+                  </ul>*/}
                   <div className="space-35"></div>
                   <div className="video-popup style-2">
                     <div className="btn-inner">
@@ -148,11 +155,8 @@ function AppView() {
                 <div className="ot-heading s2 text-center">
                   <span>Who we serve</span>
                   <h2 className="main-heading">
-                    Find out how we can help you <br />
-                    <quote>
-                      We help you and your customers make and accept payments,
-                      simply, securely and fast – anywhere in the world.
-                    </quote>
+                    We power payments for the world's fastest-growing businesses{" "}
+                    <br />
                   </h2>
                 </div>
                 <div className="space-60"></div>
@@ -165,31 +169,7 @@ function AppView() {
                   <div className="top-box">
                     <SVGIconMainFour />
                   </div>
-                  <h5>Platforms and Marketplace</h5>
-                  <p>
-                    For buyers and sellers with fast, compliant cross-border
-                    payments.
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6">
-                <div className="icon-box-s3">
-                  <div className="top-box">
-                    <SVGIconMainFive />
-                  </div>
-                  <h5>Payment Service Providers</h5>
-                  <p>
-                    Offer faster, more visible payments in more countries and
-                    currencies.
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-4 col-md-6">
-                <div className="icon-box-s3 mb-lg-0">
-                  <div className="top-box">
-                    <SVGIconMainSix />
-                  </div>
-                  <h5>Money Transfer Operator</h5>
+                  <h5>Money Transfer Operators (MTOs)</h5>
                   <p>
                     Expand your cross-border corridors fast, securely and
                     cost-effectively.
@@ -199,32 +179,48 @@ function AppView() {
               <div className="col-lg-4 col-md-6">
                 <div className="icon-box-s3">
                   <div className="top-box">
-                    <SVGIconMainOne />
+                    <SVGIconMainFive />
                   </div>
-                  <h5>Mobile Wallets</h5>
+                  <h5>Mobile Money Operators (MMOs)</h5>
                   <p>
-                    Expand your payment network and access fast-growing markets.
+                    Expand into new markets quickly with a single API
+                    integration.
                   </p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
                 <div className="icon-box-s3 mb-lg-0">
                   <div className="top-box">
-                    <SVGIconMainSeven />
+                    <SVGIconMainSix />
                   </div>
-                  <h5>Digital Merchants</h5>
-                  <p>Make it simple to do business across borders.</p>
+                  <h5>Banks</h5>
+                  <p>
+                    Connect to our payment network for endless opportunities in
+                    just one plug-in experience.
+                  </p>
+                </div>
+              </div>
+              <div className="col-lg-4 col-md-6">
+                <div className="icon-box-s3">
+                  <div className="top-box">
+                    <SVGIconMainOne />
+                  </div>
+                  <h5>Financial institutions</h5>
+                  <p>
+                    Accelerate your business growth by accessing new digital
+                    banking channels through our network.
+                  </p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-6">
                 <div className="icon-box-s3 mb-lg-0">
                   <div className="top-box">
-                    <SVGIconMainSeven />
+                    <SVGIconMainTwo />
                   </div>
-                  <h5>Banks</h5>
+                  <h5>Merchants</h5>
                   <p>
-                    Plug into our payment network and open a world of
-                    opportunity.
+                    Make it simple to do business across borders and gain
+                    instant access to untapped customer segments.{" "}
                   </p>
                 </div>
               </div>
@@ -238,7 +234,7 @@ function AppView() {
             <div className="row">
               <div className="col-xl-4 col-lg-12 mb-5 mb-xl-0">
                 <div className="ot-heading s2">
-                  <span>Our Services</span>
+                  <span>Our Products</span>
                   <h3 className="main-heading">Start With An Affordable</h3>
                 </div>
                 <div className="space-10"></div>
@@ -250,7 +246,7 @@ function AppView() {
                 <div className="space-55"></div>
                 <div className="ot-button">
                   <a href="#" className="octf-btn octf-btn-second btn-round">
-                    all services
+                    all products
                   </a>
                 </div>
               </div>
@@ -260,7 +256,7 @@ function AppView() {
                     <span className="flaticon-tablet"></span>
                   </div>
                   <div className="content-box">
-                    <h5>Cross-border money Transfer</h5>
+                    <h5>International money Transfer</h5>
                     <div className="text-justify">
                       Upayza's platform simplifies global payments, making money
                       transfers across borders instant, easier and more

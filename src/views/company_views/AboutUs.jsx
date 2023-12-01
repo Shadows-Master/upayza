@@ -9,10 +9,13 @@ const AboutUs = () => {
             <div className="col-md-12">
               <div className="top-heading">
                 <div className="ot-heading">
-                  <h2 className="main-heading">
-                    global facilitator <br />
-                    interoperable cross-border mobile money
-                  </h2>
+                  <h3 className="main-heading text-white">
+                    At Upayza, we strive to redefine possibilities for your
+                    business.
+                    <br /> Our belief is simple: payments should transcend
+                    borders, be effortlessly smooth, and, above all, comply with
+                    regulations.
+                  </h3>
                 </div>
               </div>
             </div>
@@ -26,10 +29,11 @@ const AboutUs = () => {
           <div className="row">
             <div className="col-lg-12 text-center">
               <div className="ot-heading v3 mb-0">
-                <span>We are UPAYZA </span>
+                <span>Our Mission </span>
                 <h2 className="main-heading">
-                  We are Trusted <br />
-                  15+ Countries Worldwide
+                  To connect every part of the world and make
+                  <br />
+                  the global economy available to everyone.
                 </h2>
               </div>
             </div>
@@ -73,111 +77,6 @@ const AboutUs = () => {
                 <div className="content-box">
                   <h5>Results</h5>
                   <p>Enabling the growth strategies of our partners</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="technology-v3">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-6 align-self-center mb-4 mb-lg-0">
-              <div className="technology-v3-left">
-                <div className="ot-heading">
-                  <span className="text-primary-light">Who we are</span>
-                  <h2 className="main-heading text-white">
-                    Global Facilitator
-                  </h2>
-                </div>
-                <div className="space-5"></div>
-                <p className="text-white text-justify">
-                  UPAYZA is a global facilitator of interoperable cross-border
-                  mobile money transactions, leveraging advanced technology to
-                  connect digital/mobile wallets across the world. We mainly
-                  work with MMOs (Mobile Money Operators), MTOs (Money Transfer
-                  Operators), banks, financials entities worldwide to enable
-                  their customers to receive and send instantly money
-                  cross-border using simply their phones
-                </p>
-                <div className="space-20"></div>
-                <div className="row justify-content-center">
-                  <div className="col-lg-4 col-md-4 col-sm-6 mb-4 mb-md-0 text-center text-md-left">
-                    <div className="ot-counter v3">
-                      <div>
-                        <span className="num" data-to="330" data-time="2000">
-                          0
-                        </span>
-                        <span>+</span>
-                      </div>
-                      <h6>active Clients</h6>
-                    </div>
-                  </div>
-                  <div className="col-lg-4 col-md-4 col-sm-6 mb-md-0 text-center text-md-left">
-                    <div className="ot-counter v3">
-                      <div>
-                        <span className="num" data-to="850" data-time="2000">
-                          0
-                        </span>
-                        <span>+</span>
-                      </div>
-                      <h6>Projects Done</h6>
-                    </div>
-                  </div>
-                  <div className="col-lg-4 col-md-4 col-sm-6 text-center text-md-left">
-                    <div className="ot-counter v3">
-                      <div>
-                        <span className="num" data-to="25" data-time="2000">
-                          0
-                        </span>
-                        <span>+</span>
-                      </div>
-                      <h6>Team Advisors</h6>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <div className="row">
-                <div className="col-lg-6 col-md-6">
-                  <a className="ot-image-box v3 st1" href="it-services.html">
-                    <div className="overlay">
-                      <h4>Our Mission</h4>
-                    </div>
-                    <img src="../images/image-box1.jpg" alt="Our Mission" />
-                  </a>
-                </div>
-                <div className="col-lg-6 col-md-6">
-                  <a
-                    className="ot-image-box v3 st2"
-                    href="web-development.html"
-                  >
-                    <div className="overlay">
-                      <h4>Our Vision</h4>
-                    </div>
-                    <img src="../images/image-box2.jpg" alt="Our Vision" />
-                  </a>
-                </div>
-                <div className="col-lg-6 col-md-6">
-                  <a className="ot-image-box v3 st3" href="it-services.html">
-                    <div className="overlay">
-                      <h4>Our Philosophy</h4>
-                    </div>
-                    <img src="../images/image-box3.jpg" alt="Our Philosophy" />
-                  </a>
-                </div>
-                <div className="col-lg-6 col-md-6">
-                  <a
-                    className="ot-image-box v3 st4 mb-0"
-                    href="web-development.html"
-                  >
-                    <div className="overlay">
-                      <h4>Our Strategy</h4>
-                    </div>
-                    <img src="../images/image-box4.jpg" alt="Our Strategy" />
-                  </a>
                 </div>
               </div>
             </div>
@@ -329,70 +228,276 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
+      <section className="technology-v3">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-6 align-self-center mb-4 mb-lg-0">
+              <div className="technology-v3-left">
+                <div className="ot-heading">
+                  <span className="text-primary-light">Who we are</span>
+                  <h2 className="main-heading text-white"></h2>
+                </div>
+                <div className="space-5"></div>
+                <p className="text-white text-justify">
+                  UPAYZA is a cross-border payments company, connecting
+                  digital/mobile wallets around the world. We collaborate with
+                  Money Transfer Operators (MTOs), Mobile Money Operators
+                  (MMOs), Mobile Network Operators (MNOs), merchants, banks and
+                  financial entities to enable their customers to make instant
+                  and secure cross-border transactions using just a mobile
+                  phone. <br />
+                  <br /> Through an extensive network of partners, UPAYZA breaks
+                  down borders, offers diverse payment options and promotes
+                  global economic access. Our mission is to streamline financial
+                  processes, improve security and contribute to financial
+                  inclusion and progress for individuals and businesses.
+                </p>
+                <div className="space-20"></div>
+                {/*<div className="row justify-content-center">
+                  <div className="col-lg-4 col-md-4 col-sm-6 mb-4 mb-md-0 text-center text-md-left">
+                    <div className="ot-counter v3">
+                      <div>
+                        <span className="num" data-to="330" data-time="2000">
+                          0
+                        </span>
+                        <span>+</span>
+                      </div>
+                      <h6>active Clients</h6>
+                    </div>
+                  </div>
+                  <div className="col-lg-4 col-md-4 col-sm-6 mb-md-0 text-center text-md-left">
+                    <div className="ot-counter v3">
+                      <div>
+                        <span className="num" data-to="850" data-time="2000">
+                          0
+                        </span>
+                        <span>+</span>
+                      </div>
+                      <h6>Projects Done</h6>
+                    </div>
+                  </div>
+                  <div className="col-lg-4 col-md-4 col-sm-6 text-center text-md-left">
+                    <div className="ot-counter v3">
+                      <div>
+                        <span className="num" data-to="25" data-time="2000">
+                          0
+                        </span>
+                        <span>+</span>
+                      </div>
+                      <h6>Team Advisors</h6>
+                    </div>
+                  </div>
+                </div>*/}
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="row">
+                <div className="col-lg-6 col-md-6">
+                  <a className="ot-image-box v3 st1" href="it-services.html">
+                    <div className="overlay">
+                      <h4>Our Vision</h4>
+                    </div>
+                    <img src="../images/image-box1.jpg" alt="Our Mission" />
+                  </a>
+                </div>
+                <div className="col-lg-6 col-md-6">
+                  <a className="ot-image-box v3 st4 mb-0" href="#">
+                    <div className="overlay">
+                      <h4>Our Values</h4>
+                    </div>
+                    <img src="../images/image-box4.jpg" alt="Our Strategy" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="service-page">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6 col-sm-8 mb-4 mb-sm-0">
+              <div className="ot-heading mb-0">
+                <span>Our Values</span>
+              </div>
+            </div>
+            <div className="col-md-6 col-sm-4 text-sm-right align-self-end">
+              <div className="space-10"></div>
+            </div>
+          </div>
+          <div className="space-55"></div>
+          <div className="row justify-content-center">
+            <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
+              <div className="support-box">
+                <div className="inner-box">
+                  <div className="overlay flex-middle">
+                    <span className="number-box">01</span>
+                    <div className="inner">
+                      <p className="text-justify">
+                        We ensure secure, efficient cross-border payments with
+                        reliability. Committed to compliance, we prioritize
+                        client, partner, and user interests for transaction
+                        security and service availability.
+                      </p>
+                      <a href="#" className="btn-details">
+                        <i className="flaticon-right-arrow-1"></i> LEARN MORE
+                      </a>
+                    </div>
+                  </div>
+                  <div className="content-box">
+                    <span className="number-box">01</span>
+                    <h3>Reliability and Compliance</h3>
+                    <img src="../images/support1.jpg" alt="For Partners" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
+              <div className="support-box">
+                <div className="inner-box">
+                  <div className="overlay flex-middle">
+                    <span className="number-box">02</span>
+                    <div className="inner">
+                      <p className="text-justify">
+                        We believe in the power of collaboration. By fostering
+                        partnerships and networks globally, we create an
+                        interconnected ecosystem that facilitates efficient and
+                        inclusive cross-border payments.
+                      </p>
+                      <a href="#" className="btn-details">
+                        <i className="flaticon-right-arrow-1"></i> LEARN MORE
+                      </a>
+                    </div>
+                  </div>
+                  <div className="content-box">
+                    <span className="number-box">02</span>
+                    <h3>Global Collaboration</h3>
+                    <img src="../images/support2.jpg" alt="For Customers" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="support-box">
+                <div className="inner-box">
+                  <div className="overlay flex-middle">
+                    <span className="number-box">03</span>
+                    <div className="inner">
+                      <p className="text-justify">
+                        We Promote global financial inclusion through accessible
+                        cross-border payments, enabling individuals and
+                        businesses, irrespective of location or financial
+                        background, to participate in the economy.
+                      </p>
+                      <a href="#" className="btn-details">
+                        <i className="flaticon-right-arrow-1"></i> LEARN MORE
+                      </a>
+                    </div>
+                  </div>
+                  <div className="content-box">
+                    <span className="number-box">03</span>
+                    <h3>Inclusivity</h3>
+                    <img src="../images/support3.jpg" alt="For Startups" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section className="services-v3">
         <div className="container">
           <div className="row">
             <div className="col-lg-12 text-center">
               <div className="ot-heading">
-                <span> our service</span>
+                <span> our Services</span>
                 <h2 className="main-heading">
-                  We Offer a Wide <br />
-                  Variety of Services
+                  Explore a range of services designed <br />
+                  to simplify and facilitate your payment transactions.
                 </h2>
               </div>
               <div className="space-15"></div>
             </div>
           </div>
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
-              <div className="serv-box s1">
+            <div className="col-lg-4 col-md-6 mb-30">
+              <div className="icon-box-s2 s2 border-s1 bg bg1 text-center">
                 <div className="icon-main">
-                  <span className="flaticon-tablet"></span>
+                  <span className="flaticon-code"></span>
                 </div>
                 <div className="content-box">
-                  <h5>Cross-border money Transfer</h5>
-                  <div className="text-justify">
-                    Upayza's platform simplifies global payments, making money
-                    transfers across borders instant, easier and more efficient.
-                    <ul>
-                      <li className="active">
-                        <a href="">Global remittances</a>
-                      </li>
-                      <li>
-                        <a href="">Easy Integration</a>
-                      </li>
-                      <li>
-                        <a href="">Business Payouts</a>
-                      </li>
-                    </ul>
-                  </div>
+                  <h5>
+                    <a href="#">International money transfer</a>
+                  </h5>
+                  <p>
+                    Streamline transactions with our cross-border payment system
+                    for fast, smooth, and secure global remittances daily.
+                  </p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
-              <div className="serv-box s1">
+            <div className="col-lg-4 col-md-6 mb-30">
+              <div className="icon-box-s2 s2 border-s1 bg bg2 text-center">
                 <div className="icon-main">
-                  <span className="flaticon-report"></span>
+                  <span className="flaticon-app"></span>
                 </div>
                 <div className="content-box">
-                  <h5>Interoperable Mobile Payment Switch</h5>
-                  <div className="text-justify">
-                    Our revolutionary interoperable mobile payment switch is an
-                    innovation that creates an open system for mobile payment
-                    providers.
-                    <ul>
-                      <li className="active">
-                        <a href="">Monitored Micro-payments</a>
-                      </li>
-                      <li>
-                        <a href="">Enhanced Governance</a>
-                      </li>
-                      <li>
-                        <a href="">Ensured Stability</a>
-                      </li>
-                    </ul>
-                  </div>
+                  <h5>
+                    <a href="#">Wallet enablement</a>
+                  </h5>
+                  <p>
+                    Enable millions of wallet holders to make cross-border
+                    payments seamlessly with Upayza’s integrated solution.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 mb-30">
+              <div className="icon-box-s2 s2 border-s1 bg bg3 text-center">
+                <div className="icon-main">
+                  <span className="flaticon-monitor"></span>
+                </div>
+                <div className="content-box">
+                  <h5>
+                    <a href="">Corporate disbursement</a>
+                  </h5>
+                  <p>
+                    Fuel your growth with Upayza enabling fast, affordable, and
+                    transparent transactions worldwide.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 mb-30">
+              <div className="icon-box-s2 s2 border-s1 bg bg4 text-center">
+                <div className="icon-main">
+                  <span className="flaticon-code"></span>
+                </div>
+                <div className="content-box">
+                  <h5>
+                    <a href="#">Collections</a>
+                  </h5>
+                  <p>
+                    Streamline global payments, integrate with Upayza, and tap
+                    into our extensive network.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 mb-30">
+              <div className="icon-box-s2 s2 border-s1 bg bg2 text-center">
+                <div className="icon-main">
+                  <span className="flaticon-app"></span>
+                </div>
+                <div className="content-box">
+                  <h5>
+                    <a href="#">Mobile Payment Interoperability</a>
+                  </h5>
+                  <p>
+                    Promotes collaboration for efficient mobile payment
+                    interoperability.
+                  </p>
                 </div>
               </div>
             </div>

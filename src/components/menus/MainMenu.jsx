@@ -33,12 +33,12 @@ const MainMenu = () => {
       </li>
       <li>
         <NavLink className="menu-item-has-children" to={""}>
-          Services
+          Products
         </NavLink>
         <ul className="sub-menu">
           <li>
             <Link to={"/services/cross-border-money"}>
-              Cross-border money Transfer
+              International money Transfer
             </Link>
           </li>
           <li>
