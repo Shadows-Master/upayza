@@ -339,14 +339,11 @@ const AboutUs = () => {
                         client, partner, and user interests for transaction
                         security and service availability.
                       </p>
-                      <a href="#" className="btn-details">
-                        <i className="flaticon-right-arrow-1"></i> LEARN MORE
-                      </a>
                     </div>
                   </div>
                   <div className="content-box">
                     <span className="number-box">01</span>
-                    <h3>Reliability and Compliance</h3>
+                    <h3>Reliability & Compliance</h3>
                     <img src="../images/support1.jpg" alt="For Partners" />
                   </div>
                 </div>
@@ -364,9 +361,6 @@ const AboutUs = () => {
                         interconnected ecosystem that facilitates efficient and
                         inclusive cross-border payments.
                       </p>
-                      <a href="#" className="btn-details">
-                        <i className="flaticon-right-arrow-1"></i> LEARN MORE
-                      </a>
                     </div>
                   </div>
                   <div className="content-box">
@@ -389,9 +383,6 @@ const AboutUs = () => {
                         businesses, irrespective of location or financial
                         background, to participate in the economy.
                       </p>
-                      <a href="#" className="btn-details">
-                        <i className="flaticon-right-arrow-1"></i> LEARN MORE
-                      </a>
                     </div>
                   </div>
                   <div className="content-box">
@@ -463,8 +454,9 @@ const AboutUs = () => {
                     <a href="">Corporate disbursement</a>
                   </h5>
                   <p>
-                    Fuel your growth with Upayza enabling fast, affordable, and
-                    transparent transactions worldwide.
+                    Power your growth with Upayza's global payment
+                    solutions—eliminating barriers for fast, affordable, and
+                    transparent transactions across your global network.
                   </p>
                 </div>
               </div>
@@ -495,8 +487,8 @@ const AboutUs = () => {
                     <a href="#">Mobile Payment Interoperability</a>
                   </h5>
                   <p>
-                    Promotes collaboration for efficient mobile payment
-                    interoperability.
+                    Fosters collaboration, interoperability among mobile payment
+                    providers for efficiency.
                   </p>
                 </div>
               </div>
