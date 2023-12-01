@@ -455,8 +455,7 @@ const AboutUs = () => {
                   </h5>
                   <p>
                     Power your growth with Upayza eliminating barriers for fast,
-                    affordable, and transparent transactions across your global
-                    network.
+                    affordable, and transparent transactions across our network.
                   </p>
                 </div>
               </div>
