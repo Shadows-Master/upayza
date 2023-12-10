@@ -327,69 +327,57 @@ const AboutUs = () => {
           </div>
           <div className="space-55"></div>
           <div className="row justify-content-center">
-            <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
-              <div className="support-box">
-                <div className="inner-box">
-                  <div className="overlay flex-middle">
-                    <span className="number-box">01</span>
-                    <div className="inner">
-                      <p className="text-justify">
-                        We ensure secure, efficient cross-border payments with
-                        reliability. Committed to compliance, we prioritize
-                        client, partner, and user interests for transaction
-                        security and service availability.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="content-box">
-                    <span className="number-box">01</span>
-                    <h3>Reliability & Compliance</h3>
-                    <img src="../images/support1.jpg" alt="For Partners" />
-                  </div>
+            <div className="col-lg-4 col-md-6 mb-30">
+              <div className="icon-box-s2 s2 border-s1 bg bg3 text-center">
+                <div className="icon-main">
+                  <span className="flaticon-monitor"></span>
+                </div>
+                <div className="content-box">
+                  <h5>
+                    <a href="">Reliability & Compliance</a>
+                  </h5>
+                  <p>
+                    We ensure secure, efficient cross-border payments with
+                    reliability. Committed to compliance, we prioritize client,
+                    partner, and user interests for transaction security and
+                    service availability.
+                  </p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
-              <div className="support-box">
-                <div className="inner-box">
-                  <div className="overlay flex-middle">
-                    <span className="number-box">02</span>
-                    <div className="inner">
-                      <p className="text-justify">
-                        We believe in the power of collaboration. By fostering
-                        partnerships and networks globally, we create an
-                        interconnected ecosystem that facilitates efficient and
-                        inclusive cross-border payments.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="content-box">
-                    <span className="number-box">02</span>
-                    <h3>Global Collaboration</h3>
-                    <img src="../images/support2.jpg" alt="For Customers" />
-                  </div>
+            <div className="col-lg-4 col-md-6 mb-30">
+              <div className="icon-box-s2 s2 border-s1 bg bg4 text-center">
+                <div className="icon-main">
+                  <span className="flaticon-code"></span>
+                </div>
+                <div className="content-box">
+                  <h5>
+                    <a href="#">Global Collaboration</a>
+                  </h5>
+                  <p>
+                    We believe in the power of collaboration. By fostering
+                    partnerships and networks globally, we create an
+                    interconnected ecosystem that facilitates efficient and
+                    inclusive cross-border payments.
+                  </p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6">
-              <div className="support-box">
-                <div className="inner-box">
-                  <div className="overlay flex-middle">
-                    <span className="number-box">03</span>
-                    <div className="inner">
-                      <p className="text-justify">
-                        We Promote global financial inclusion through accessible
-                        cross-border payments, enabling individuals and
-                        businesses, irrespective of location or financial
-                        background, to participate in the economy.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="content-box">
-                    <span className="number-box">03</span>
-                    <h3>Inclusivity</h3>
-                    <img src="../images/support3.jpg" alt="For Startups" />
-                  </div>
+            <div className="col-lg-4 col-md-6 mb-30">
+              <div className="icon-box-s2 s2 border-s1 bg bg2 text-center">
+                <div className="icon-main">
+                  <span className="flaticon-app"></span>
+                </div>
+                <div className="content-box">
+                  <h5>
+                    <a href="#">Inclusivity</a>
+                  </h5>
+                  <p className="mt-1">
+                    We Promote global financial inclusion through accessible
+                    cross-border payments, enabling individuals and businesses,
+                    irrespective of location or financial background, to
+                    participate in the economy.
+                  </p>
                 </div>
               </div>
             </div>

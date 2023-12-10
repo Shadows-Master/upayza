@@ -6665,10 +6665,10 @@ div.tp-bullet.selected, div.tp-bullet:hover {
     margin-top: -70px;
 }
 .icon-box-s2.bg:hover {
-    color: #fff;
+    color: #1b2026;
 }
 .icon-box-s2.bg:hover .content-box h5 a {
-    color: #fff;
+    color: #1b2026;
 }
 .icon-box-s2.s2.bg * {
     transition: none;
@@ -6690,27 +6690,22 @@ div.tp-bullet.selected, div.tp-bullet:hover {
     background-size: cover;
 }
 .icon-box-s2.bg2:before {
-    background-image: url(../images/bg-icon-box2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .icon-box-s2.bg3:before {
-    background-image: url(../images/bg-icon-box3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .icon-box-s2.bg4:before {
-    background-image: url(../images/bg-icon-box4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .icon-box-s2.bg5:before {
-    background-image: url(../images/bg-icon-box5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .icon-box-s2.bg6:before {
-    background-image: url(../images/bg-icon-box6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }

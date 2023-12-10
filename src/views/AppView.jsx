@@ -181,7 +181,7 @@ function AppView() {
                   <div className="top-box">
                     <SVGIconMainFive />
                   </div>
-                  <h5>Mobile Money Operators (MMOs)</h5>
+                  <h5>Mobile Network Operators (MNOs)</h5>
                   <p>
                     Expand into new markets quickly with a single API
                     integration.
@@ -219,8 +219,8 @@ function AppView() {
                   </div>
                   <h5>Merchants</h5>
                   <p>
-                    Make it simple to do business across borders and gain
-                    instant access to untapped customer segments.{" "}
+                    Easy way to do business across borders and gain instant
+                    access to untapped customer segments.{" "}
                   </p>
                 </div>
               </div>
@@ -235,13 +235,13 @@ function AppView() {
               <div className="col-xl-4 col-lg-12 mb-5 mb-xl-0">
                 <div className="ot-heading s2">
                   <span>Our Products</span>
-                  <h3 className="main-heading">Start With An Affordable</h3>
+                  {/*<h3 className="main-heading">Start With An Affordable</h3>*/}
                 </div>
                 <div className="space-10"></div>
                 <p className="mr-70 text-justify">
-                  With access to our modular capabilities, you can accelerate
-                  time to market, expand your offering and implement payments in
-                  hundreds of countries in a single integration.
+                  By accessing our API capabilities, you can accelerate time to
+                  market, expand your offering, and implement payments in
+                  multiple countries with just a single integration.
                 </p>
                 <div className="space-55"></div>
                 <div className="ot-button">
@@ -256,8 +256,8 @@ function AppView() {
                     <span className="flaticon-tablet"></span>
                   </div>
                   <div className="content-box">
-                    <h5>International money Transfer</h5>
-                    <div className="text-justify">
+                    <h5>International Money Transfer</h5>
+                    <div>
                       Upayza's platform simplifies global payments, making money
                       transfers across borders instant, easier and more
                       efficient.
