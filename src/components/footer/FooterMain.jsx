@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { SocialMediaComponent } from "../index";
 
 const FooterMain = () => {
@@ -8,7 +8,7 @@ const FooterMain = () => {
         <div className="row">
           <div className="col-md-12 text-center">
             <img
-              src="../images/logo-light.svg"
+              src={process.env.PUBLIC_URL + "../images/logo-light.svg"}
               alt=""
               height={50}
               width={153}
@@ -58,30 +58,28 @@ const FooterMain = () => {
                   <Link to={""}>Home</Link>
                 </li>
                 <li>
-                  <NavLink to={"/company"}>Company</NavLink>
+                  <Link to={"/company/about"}>Company</Link>
                 </li>
                 <li>
-                  <NavLink to={"/services"}>Services</NavLink>
+                  <Link to={"/services/cross-border-money"}>Products</Link>
                 </li>
                 <li>
-                  <NavLink to={"/who-we-serve"}>Who we serve</NavLink>
+                  <Link to={"/who-we-serve"}>Who we serve</Link>
                 </li>
                 <li>
-                  <NavLink className="menu-item-has-children" to={"/network"}>
-                    Network
-                  </NavLink>
-                </li>
-                <li>
-                  <NavLink className="menu-item-has-children" to={"/contacts"}>
+                  <Link className="menu-item-has-children" to={"/contacts"}>
                     Contacts
-                  </NavLink>
+                  </Link>
                 </li>
               </ul>
             </div>
             <div className="space-20"></div>
             <p className="copyright-text v2">
-              Copyright © {new Date().getFullYear()} UPAYZA Inc. All Rights
-              Reserved.
+              {new Date().getFullYear()} © <strong> Upayza Inc</strong> All
+              Rights Reserved. |{" "}
+              <Link to={"#"} className="text-white">
+                Privacy notice{" "}
+              </Link>
             </p>
             <div className="space-26"></div>
             <SocialMediaComponent />

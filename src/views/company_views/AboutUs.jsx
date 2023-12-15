@@ -514,7 +514,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div className="space-115"></div>
-          {/*
+
           <div className="row">
             <div className="col-lg-12 text-center">
               <div className="ot-heading">
@@ -523,9 +523,10 @@ const AboutUs = () => {
               </div>
               <div className="space-5"></div>
               <p>
-                We help businesses elevate their value through custom software
-                development,
-                <br /> product design, QA and consultancy services.
+                UPAYZA is a place where people work together and use their
+                skills to come up with new and amazing ideas that change the way
+                people do business globally. We are a top digital payment
+                service that helps everyone become more successful.
               </p>
               <div className="space-20"></div>
             </div>
@@ -688,7 +689,6 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-          */}
         </div>
       </section>
 

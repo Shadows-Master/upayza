@@ -1,12 +1,9 @@
 const CBMThirdContent = () => {
   return (
     <p className="text-justify">
-      Boost your business growth with UPAYZA's custom global payment solutions.
-      We overcome slow and expensive transactions, ensuring quick, affordable,
-      and transparent payments to your partners and customers worldwide. Even in
-      challenging markets, we accelerate your expansion. Our expanding partner
-      network and payment choices ensure scalability and personalized solutions
-      for you.
+      Unlock global growth with UPAYZA's swift, cost-effective, and transparent
+      payment solutions. Accelerate your expansion, even in challenging markets,
+      with our extensive partner network and customizable options.
     </p>
   );
 };

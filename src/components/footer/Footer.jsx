@@ -39,10 +39,14 @@ const Footer = () => {
               <h5>Services</h5>
               <ul className="list-items">
                 <li className="list-item">
-                  <a href="#">Cross-border money transfer</a>
+                  <Link to={"/services/cross-border-money"}>
+                    International Money Transfer
+                  </Link>
                 </li>
                 <li className="list-item">
-                  <a href="#">Interoperable Mobile Payment</a>
+                  <Link to={"/services/interoperable-mobile-payment"}>
+                    Interoperable Mobile Payment
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -52,19 +56,19 @@ const Footer = () => {
               <h5>Who we serve</h5>
               <ul className="list-items">
                 <li className="list-item">
-                  <a href="#">Banks</a>
+                  <Link to={"#"}>Banks</Link>
                 </li>
                 <li className="list-item">
-                  <a href="#">Digital Merchants</a>
+                  <Link to={"#"}>Merchants</Link>
                 </li>
                 <li className="list-item">
-                  <a href="#">Mobile Wallets</a>
+                  <Link to={"#"}>Financial institutions</Link>
                 </li>
                 <li className="list-item">
-                  <a href="#">Payment Service Providers</a>
+                  <Link to={"#"}>Money Transfer Operators (MTOs)</Link>
                 </li>
                 <li className="list-item">
-                  <a href="#">Money Transfer Opetaor</a>
+                  <Link to={"#"}>Mobile Network Operators (MNOs)</Link>
                 </li>
               </ul>
             </div>
@@ -74,13 +78,13 @@ const Footer = () => {
               <h5>Company</h5>
               <ul className="list-items">
                 <li className="list-item">
-                  <Link to={"/about"}>About Us</Link>
+                  <Link to={"/company/about"}>About Us</Link>
                 </li>
                 <li className="list-item">
-                  <Link to={"/our-team"}>Team Members</Link>
+                  <Link to={"/company/our-team"}>Team Members</Link>
                 </li>
                 <li className="list-item">
-                  <a href="">Careers & Reviews</a>
+                  <Link to={"#"}>Careers & Reviews</Link>
                 </li>
                 <li className="list-item">
                   <Link to={"/contacts"}>Contacts</Link>
@@ -124,14 +128,14 @@ const Footer = () => {
           <div className="col-md-6 mb-4 mb-md-0">
             <div className="flogo-i6">
               <Link to={""}>
-                <img src="images/logo.svg" alt="" />
+                <img src={process.env.PUBLIC_URL + "images/logo.svg"} alt="" />
               </Link>
             </div>
           </div>
           <div className="col-md-6 text-left text-md-right align-self-center">
             <p className="copyright-text">
-              Copyright © {new Date().getFullYear()} <strong> Upayza </strong>{" "}
-              . All Rights Reserved.
+              {new Date().getFullYear()} © <strong> Upayza Inc</strong> All
+              Rights Reserved. | <Link to={"#"}> Privacy notice </Link>
             </p>
           </div>
           <div className="space-35"></div>

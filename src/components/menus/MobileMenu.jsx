@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const MobileMenu = () => {
   return (
@@ -34,13 +34,13 @@ const MobileMenu = () => {
             </ul>
           </li>
           <li>
-            <NavLink className="menu-item-has-children" to={""}>
-              Services
-            </NavLink>
+            <Link className="menu-item-has-children" to={"#"}>
+              Products
+            </Link>
             <ul className="sub-menu">
               <li>
                 <Link to={"/services/cross-border-money"}>
-                  Cross-border money Transfer
+                  International money Transfer
                 </Link>
               </li>
               <li>
@@ -51,42 +51,31 @@ const MobileMenu = () => {
             </ul>
           </li>
           <li>
-            <NavLink className="menu-item-has-children" to={"/who-we-serve"}>
+            <Link className="menu-item-has-children" to={"#"}>
               Who we serve
-            </NavLink>
+            </Link>
             <ul className="sub-menu">
+              <li>
+                <Link to={"#"}>Money Transfer Operator</Link>
+              </li>
+              <li>
+                <Link to={"#"}>Mobile Network Operators</Link>
+              </li>
               <li>
                 <Link to={"#"}>Banks</Link>
               </li>
               <li>
-                <Link to={"#"}>Digital Merchants</Link>
+                <Link to={"#"}>Financial institutions</Link>
               </li>
               <li>
-                <Link to={"#"}>Creator Economy</Link>
-              </li>
-              <li>
-                <Link to={"#"}>Mobile Wallets</Link>
-              </li>
-              <li>
-                <Link to={"#"}>Money Transfer Operators</Link>
-              </li>
-              <li>
-                <Link to={"#"}>Payment Service Providers</Link>
-              </li>
-              <li>
-                <Link to={"#"}>Platforms and Marketplaces</Link>
+                <Link to={"#"}>Merchants</Link>
               </li>
             </ul>
           </li>
           <li>
-            <NavLink className="menu-item-has-children" to={"/network"}>
-              Network
-            </NavLink>
-          </li>
-          <li>
-            <NavLink className="menu-item-has-children" to={"/contacts"}>
+            <Link className="menu-item-has-children" to={"/contacts"}>
               Contacts
-            </NavLink>
+            </Link>
           </li>
         </ul>
       </div>
