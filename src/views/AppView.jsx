@@ -94,7 +94,7 @@ function AppView() {
                     <div className="btn-inner">
                       <a
                         className="btn-play"
-                        href="https://vimeo.com/897242899"
+                        href="https://vimeo.com/897275429"
                         target="blank"
                       >
                         <i className="flaticon-play"></i>
