@@ -35,11 +35,11 @@ const CrossBorderMoneyTabs = () => {
           <CBMThird />
         )}
       </div>
-      <p>
+      {/*<p>
         <a className="btn-details" href="#">
           <i className="flaticon-right-arrow-1"></i> LEARN MORE
         </a>
-      </p>
+      </p>*/}
     </div>
   );
 };

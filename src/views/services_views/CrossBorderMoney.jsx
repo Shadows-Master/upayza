@@ -51,7 +51,7 @@ const CrossBorderMoney = () => {
                   </em>
                 </p>
                 <div className="video-popup style-2">
-                  <div className="btn-inner">
+                  {/*<div className="btn-inner">
                     <a
                       className="btn-play"
                       href="https://www.youtube.com/watch?v=lfDZJqSrIuk"
@@ -61,7 +61,7 @@ const CrossBorderMoney = () => {
                       <span className="circle-2"></span>
                     </a>
                   </div>
-                  <span>video showcase</span>
+                  <span>video showcase</span>*/}
                 </div>
               </div>
             </div>
@@ -69,7 +69,7 @@ const CrossBorderMoney = () => {
         </div>
       </section>
 
-      <section className="counter-v5">
+      {/*<section className="counter-v5">
         <div className="container-fluid">
           <div className="row">
             <div className="col-xl-3 col-lg-6 no-padding">
@@ -118,7 +118,7 @@ const CrossBorderMoney = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section>*/}
       <section className="mobile-app">
         <div className="container">
           <div className="row">
@@ -229,10 +229,10 @@ const CrossBorderMoney = () => {
               <div className="tab-video">
                 <div className="ot-heading">
                   <span>Features</span>
-                  <h2 className="main-heading">
+                  {/*<h2 className="main-heading">
                     We Organize Our <br />
                     Production Process
-                  </h2>
+                  </h2>*/}
                 </div>
                 <div className="space-15"></div>
                 <CrossBorderMoneyTabs />
@@ -240,20 +240,20 @@ const CrossBorderMoney = () => {
             </div>
             <div className="offset-xl-1 col-xl-6 col-lg-6 split-right-img">
               <div className="video-popup">
-                <div className="btn-inner">
+                {/*<div className="btn-inner">
                   <a className="btn-play" href="https://vimeo.com/94686522">
                     <i className="flaticon-play"></i>
                     <span className="circle-1"></span>
                     <span className="circle-2"></span>
                   </a>
-                </div>
+                </div>*/}
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="app-industris mt-md-5">
-        <div className="container">
+      <section className="app-industris">
+        {/*<div className="container">
           <div className="row">
             <div className="col-lg-12">
               <div className="s-counter4">
@@ -306,8 +306,9 @@ const CrossBorderMoney = () => {
               </div>
             </div>
           </div>
-        </div>
-        <div className="space-110"></div>
+        </div>*/}
+        {/*<div className="space-110"></div>*/}
+        <div className="space-10"></div>
       </section>
     </div>
   );
