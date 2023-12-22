@@ -39,7 +39,7 @@ function Contacts() {
                     <i className="flaticon-world-globe"></i>
                     <div className="info-text">
                       <h6>Our Address:</h6>
-                      <p>15004 88 St NW, Edmonton, AB, T5E5T5</p>
+                      <p>10235 101 St NW, Edmonton, AB, T5J3E8, Canada</p>
                     </div>
                   </div>
                   <div className="contact-info box-style1">
@@ -159,7 +159,7 @@ function Contacts() {
         <div className="no-padding">
           <div className="map">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2366.990144837893!2d-113.47749418703806!3d53.611478372252115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a024a5b8025701%3A0xe55b7f1af9d6a566!2s15004%2088%20St%20NW%2C%20Edmonton%2C%20AB%20T5E%205T5%2C%20Canada!5e0!3m2!1sfr!2scm!4v1703271315122!5m2!1sfr!2scm"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2370.7204968576743!2d-113.49578168704119!3d53.54490467223229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53a0224f40266ecb%3A0xa54ffc483449f5a1!2s10235%20101%20St%20NW%2C%20Edmonton%2C%20AB%20T5J%203E8%2C%20Canada!5e0!3m2!1sfr!2scm!4v1703271508827!5m2!1sfr!2scm"
               height="500"
               style={{ border: 0 }}
               allowFullScreen=""

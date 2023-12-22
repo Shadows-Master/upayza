@@ -22,7 +22,9 @@ const FooterMain = () => {
               <div className="box-icon">
                 <i className="flaticon-world-globe"></i>
               </div>
-              <p>15004 88 St NW, Edmonton, AB, T5E5T5</p>
+              <p>
+                10235 101 St NW, Edmonton, <br /> AB, T5J3E8, Canada
+              </p>
               <h6>Our Address</h6>
             </div>
           </div>
