@@ -92,17 +92,17 @@ function AppView() {
                   <div className="space-35"></div>
                   <div className="video-popup style-2">
                     <div className="btn-inner">
-                      <a
-                        className="btn-play"
-                        href="https://vimeo.com/897275429"
-                        target="blank"
-                      >
-                        <i className="flaticon-play"></i>
-                        <span className="circle-1"></span>
-                        <span className="circle-2"></span>
-                      </a>
+                      <video controls width="500" autoPlay loop={true} muted>
+                        <source src="upayza.mp4" type="video/mp4" />
+                        <p>
+                          Sorry, Your Browser Doesn't Support Embedded Videos.
+                          Here's the{" "}
+                          <a href="https://vimeo.com/89727542">
+                            Link to the video
+                          </a>
+                        </p>
+                      </video>
                     </div>
-                    <span>video showcase</span>
                   </div>
                 </div>
               </div>

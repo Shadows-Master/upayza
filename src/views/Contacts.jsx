@@ -9,7 +9,9 @@ function Contacts() {
         <div className="page-header flex-middle">
           <div className="container">
             <div className="inner flex-middle">
-              <h1 className="page-title">CONNECT</h1>
+              <h2 className="page-title">
+                Empower your business to transcend limits.
+              </h2>
               <ul id="breadcrumbs" className="breadcrumbs none-style">
                 <li>
                   <Link to={""}>Home</Link>
@@ -26,15 +28,21 @@ function Contacts() {
                 <div className="contact-left">
                   <div className="ot-heading">
                     {" "}
-                    <h2 className="main-heading">
-                      Empower your business to transcend limits.
-                    </h2>
+                    <h4 className="main-heading">
+                      Drop your questions or inquiries; our team will get in
+                      touch with you shortly.Thank you!"
+                    </h4>
                   </div>
                   <div className="space-5"></div>
-                  <p>
-                    Drop your questions or inquiries; our team will get in touch
-                    with you shortly.Thank you!"
-                  </p>
+                  <div className="contact-info box-style1">
+                    <i className="flaticon-envelope"></i>
+                    <div className="info-text">
+                      <h6>Our Mailbox:</h6>
+                      <a href="mailto:contact@upayza.com">
+                        <p>contact@upayza.com</p>
+                      </a>
+                    </div>
+                  </div>
                   <div className="contact-info box-style1">
                     <i className="flaticon-world-globe"></i>
                     <div className="info-text">
@@ -45,15 +53,7 @@ function Contacts() {
                       </p>
                     </div>
                   </div>
-                  <div className="contact-info box-style1">
-                    <i className="flaticon-envelope"></i>
-                    <div className="info-text">
-                      <h6>Our Mailbox:</h6>
-                      <a href="mailto:contact@upayza.com">
-                        <p>contact@upayza.com</p>
-                      </a>
-                    </div>
-                  </div>
+
                   {/*<div className="contact-info box-style1">
                     <i className="flaticon-phone-1"></i>
                     <div className="info-text">
