@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { SocialMediaComponent } from "../index";
+import React from "react";
 
 const FooterMain = () => {
   return (
@@ -23,7 +24,8 @@ const FooterMain = () => {
                 <i className="flaticon-world-globe"></i>
               </div>
               <p>
-                10235 101 St NW, Edmonton, <br /> AB, T5J3E8, Canada
+                10235 101 St NW, <br />
+                Edmonton, AB, T5J3E8, Canada
               </p>
               <h6>Our Address</h6>
             </div>

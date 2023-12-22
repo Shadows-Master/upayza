@@ -39,7 +39,10 @@ function Contacts() {
                     <i className="flaticon-world-globe"></i>
                     <div className="info-text">
                       <h6>Our Address:</h6>
-                      <p>10235 101 St NW, Edmonton, AB, T5J3E8, Canada</p>
+                      <p>
+                        10235 101 St NW, <br />
+                        Edmonton, AB, T5J3E8, Canada
+                      </p>
                     </div>
                   </div>
                   <div className="contact-info box-style1">
