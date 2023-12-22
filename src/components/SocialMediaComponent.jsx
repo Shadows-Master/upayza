@@ -1,18 +1,20 @@
+import { Link } from "react-router-dom";
+
 const SocialMediaComponent = () => {
   return (
     <div className="ft-list-icon">
-      <a className="twitter" href="">
+      <Link to={"#"} className="twitter">
         <i className="fab fa-twitter"></i>
-      </a>
-      <a className="facebook" href="">
+      </Link>
+      <Link to={"#"} className="facebook">
         <i className="fab fa-facebook-f"></i>
-      </a>
-      <a className="linkedin" href="">
+      </Link>
+      <Link to={"#"} className="linkedin">
         <i className="fab fa-linkedin-in"></i>
-      </a>
-      <a className="instagram" href="">
+      </Link>
+      <Link to={"#"} className="instagram">
         <i className="fab fa-instagram"></i>
-      </a>
+      </Link>
     </div>
   );
 };

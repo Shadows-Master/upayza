@@ -109,7 +109,7 @@ function AppView() {
             </div>
           </div>
         </section>
-        <section className="p-0">
+        {/*<section className="p-0">
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-4 col-md-6 mb-5 mb-lg-0">
@@ -150,7 +150,7 @@ function AppView() {
               </div>
             </div>
           </div>
-        </section>
+        </section>*/}
 
         <section>
           <div className="container">
@@ -310,7 +310,7 @@ function AppView() {
             </div>
           </div>
         </section>
-
+        {/*
         <section className="testimonial-i6">
           <div className="container">
             <div className="row">
@@ -484,7 +484,7 @@ function AppView() {
               </div>
             </div>
           </div>
-        </div>
+        </div>*/}
       </div>
       <Footer />
       {/* #site-footer */}

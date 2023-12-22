@@ -15,13 +15,8 @@ const Header = () => {
               <div className="col-md-8">
                 <ul className="topbar-info clearfix">
                   <li>
-                    <a href="tel:+17805312098">
-                      <i className="fas fa-phone-alt"></i> +1-780-531-2098
-                    </a>
-                  </li>
-                  <li>
-                    <a href="mailto:infos@upayza.com">
-                      <i className="fas fa-envelope"></i> infos@upayza.com
+                    <a href="mailto:contact@upayza.com">
+                      <i className="fas fa-envelope"></i> contact@upayza.com
                     </a>
                   </li>
                 </ul>
@@ -29,22 +24,22 @@ const Header = () => {
               <div className="col-md-4 text-right">
                 <ul className="social-list">
                   <li>
-                    <a href="https://twitter.com" target="_self">
+                    <a href="#" target="_self">
                       <i className="fab fa-twitter"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://facebook.com" target="_self">
+                    <a href="#" target="_self">
                       <i className="fab fa-facebook-f"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://linkedin.com" target="_self">
+                    <a href="#" target="_self">
                       <i className="fab fa-linkedin-in"></i>
                     </a>
                   </li>
                   <li>
-                    <a href="https://instagram" target="_self">
+                    <a href="#" target="_self">
                       <i className="fab fa-instagram"></i>
                     </a>
                   </li>

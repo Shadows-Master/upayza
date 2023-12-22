@@ -48,7 +48,7 @@ const MainMenu = () => {
           </li>
         </ul>
       </li>
-      <li>
+      {/*<li>
         <Link className="menu-item-has-children" to={"/who-we-serve"}>
           Who we serve
         </Link>
@@ -69,11 +69,11 @@ const MainMenu = () => {
             <Link to={"#"}>Merchants</Link>
           </li>
         </ul>
-      </li>
+      </li>*/}
 
       <li>
         <Link className="menu-item-has-children" to={"/contacts"}>
-          Contacts
+          connect
         </Link>
       </li>
     </ul>

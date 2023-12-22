@@ -521,13 +521,13 @@ const AboutUs = () => {
                     </div>
                   </div>
                   <div className="col-md-3 text-center text-md-right align-self-end">
-                    <Link
+                    {/*<Link
                       to={"/contacts"}
                       className="octf-btn btn-border"
                       role="button"
                     >
                       contact us
-                    </Link>
+                    </Link>*/}
                   </div>
                 </div>
               </div>

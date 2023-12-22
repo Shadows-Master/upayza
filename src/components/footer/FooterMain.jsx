@@ -17,27 +17,27 @@ const FooterMain = () => {
         </div>
         <div className="space-60"></div>
         <div className="row justify-content-center">
-          <div className="col-md-4 col-sm-6">
+          <div className="col-md-6 col-sm-6">
             <div className="contact-info box-style2 ft-contact-info">
               <div className="box-icon">
                 <i className="flaticon-world-globe"></i>
               </div>
-              <p>411 University St, Seattle, USA</p>
+              <p>15004 88 St NW, Edmonton, AB, T5E5T5</p>
               <h6>Our Address</h6>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6">
+          <div className="col-md-6 col-sm-6">
             <div className="contact-info box-style2 ft-contact-info">
               <div className="box-icon">
                 <i className="flaticon-envelope"></i>
               </div>
-              <a href="mailto:infos@upayza.com">
-                <p>infos@upayza.com</p>
+              <a href="mailto:contact@upayza.com">
+                <p>contact@upayza.com</p>
               </a>
               <h6>Our Mailbox</h6>
             </div>
           </div>
-          <div className="col-md-4 col-sm-6">
+          {/*<div className="col-md-4 col-sm-6">
             <div className="contact-info box-style2 ft-contact-info">
               <div className="box-icon">
                 <i className="flaticon-phone-1"></i>
@@ -47,7 +47,7 @@ const FooterMain = () => {
               </a>
               <h6>Our Phone</h6>
             </div>
-          </div>
+          </div>*/}
         </div>
         <div className="space-65"></div>
         <div className="row">
@@ -63,9 +63,9 @@ const FooterMain = () => {
                 <li>
                   <Link to={"/services/cross-border-money"}>Products</Link>
                 </li>
-                <li>
+                {/*<li>
                   <Link to={"/who-we-serve"}>Who we serve</Link>
-                </li>
+                </li>*/}
                 <li>
                   <Link className="menu-item-has-children" to={"/contacts"}>
                     Contact
