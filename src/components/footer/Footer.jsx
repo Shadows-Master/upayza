@@ -87,7 +87,7 @@ const Footer = () => {
                   <Link to={"#"}>Careers & Reviews</Link>
                 </li>
                 <li className="list-item">
-                  <Link to={"/contacts"}>Contacts</Link>
+                  <Link to={"/contacts"}>Contact</Link>
                 </li>
               </ul>
             </div>

@@ -3907,7 +3907,7 @@ object {
   position: relative;
 }
 .serv-box .content-box ul li a:before {
-  content: "//";
+  /*content: "//";*/
   position: absolute;
   left: 0;
   top: 0;

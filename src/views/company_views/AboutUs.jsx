@@ -37,7 +37,7 @@ const AboutUs = () => {
                 </h2>
               </div>
             </div>
-            <div className="space-10"></div>
+            <div className="space-30"></div>
             <div className="col-lg-12">
               <img src="../images/image1-home3.png" alt="" className="mt-4" />
             </div>
@@ -91,7 +91,7 @@ const AboutUs = () => {
               <div className="partners">
                 <div className="owl-carousel owl-theme home-client-carousel">
                   <div className="partners-slide">
-                    <a href="#" className="client-logo">
+                    <Link to={"#"} href="#" className="client-logo">
                       <figure className="partners-slide-inner">
                         <img
                           className="partners-slide-image"
@@ -99,10 +99,10 @@ const AboutUs = () => {
                           alt=""
                         />
                       </figure>
-                    </a>
+                    </Link>
                   </div>
                   <div className="partners-slide">
-                    <a href="#" className="client-logo">
+                    <Link to={"#"} href="#" className="client-logo">
                       <figure className="partners-slide-inner">
                         <img
                           className="partners-slide-image"
@@ -110,10 +110,10 @@ const AboutUs = () => {
                           alt=""
                         />
                       </figure>
-                    </a>
+                    </Link>
                   </div>
                   <div className="partners-slide">
-                    <a href="#" className="client-logo">
+                    <Link to={"#"} href="#" className="client-logo">
                       <figure className="partners-slide-inner">
                         <img
                           className="partners-slide-image"
@@ -121,10 +121,10 @@ const AboutUs = () => {
                           alt=""
                         />
                       </figure>
-                    </a>
+                    </Link>
                   </div>
                   <div className="partners-slide">
-                    <a href="#" className="client-logo">
+                    <Link to={"#"} href="#" className="client-logo">
                       <figure className="partners-slide-inner">
                         <img
                           className="partners-slide-image"
@@ -132,10 +132,10 @@ const AboutUs = () => {
                           alt=""
                         />
                       </figure>
-                    </a>
+                    </Link>
                   </div>
                   <div className="partners-slide">
-                    <a href="#" className="client-logo">
+                    <Link to={"#"} href="#" className="client-logo">
                       <figure className="partners-slide-inner">
                         <img
                           className="partners-slide-image"
@@ -143,10 +143,10 @@ const AboutUs = () => {
                           alt=""
                         />
                       </figure>
-                    </a>
+                    </Link>
                   </div>
                   <div className="partners-slide">
-                    <a href="#" className="client-logo">
+                    <Link to={"#"} href="#" className="client-logo">
                       <figure className="partners-slide-inner">
                         <img
                           className="partners-slide-image"
@@ -154,10 +154,10 @@ const AboutUs = () => {
                           alt=""
                         />
                       </figure>
-                    </a>
+                    </Link>
                   </div>
                   <div className="partners-slide">
-                    <a href="#" className="client-logo">
+                    <Link to={"#"} href="#" className="client-logo">
                       <figure className="partners-slide-inner">
                         <img
                           className="partners-slide-image"
@@ -165,7 +165,7 @@ const AboutUs = () => {
                           alt=""
                         />
                       </figure>
-                    </a>
+                    </Link>
                   </div>
                   <div className="partners-slide">
                     <a href="#" className="client-logo">
@@ -290,23 +290,44 @@ const AboutUs = () => {
                 </div>*/}
               </div>
             </div>
+
             <div className="col-lg-6">
               <div className="row">
                 <div className="col-lg-6 col-md-6">
-                  <a className="ot-image-box v3 st1" href="it-services.html">
-                    <div className="overlay">
-                      <h4>Our Vision</h4>
+                  <Link className="ot-image-box v3 st4 mb-0" to={"#"}>
+                    <div className="icon-box-s2 s2 border-s1 bg-white text-center">
+                      <div className="icon-main">
+                        <span className="flaticon-code"></span>
+                      </div>
+                      <div className="content-box">
+                        <h5>
+                          <Link to={"#"}>Our Vision</Link>
+                        </h5>
+                        <p>
+                          UPAYZA aims to provide reliable, fast and affordable
+                          cross-border payment services.
+                        </p>
+                      </div>
                     </div>
-                    <img src="../images/image-box1.jpg" alt="Our Mission" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="col-lg-6 col-md-6">
-                  <a className="ot-image-box v3 st4 mb-0" href="#">
-                    <div className="overlay">
-                      <h4>Our Values</h4>
+                  <Link to={"#"} className="ot-image-box v3 st1">
+                    <div className="icon-box-s2 s2 border-s1 bg-white text-center">
+                      <div className="icon-main">
+                        <span className="flaticon-code"></span>
+                      </div>
+                      <div className="content-box">
+                        <h5>
+                          <Link to={"#"}>Our Mission</Link>
+                        </h5>
+                        <p>
+                          To connect every part of the world and make the global
+                          economy available to everyone.
+                        </p>
+                      </div>
                     </div>
-                    <img src="../images/image-box4.jpg" alt="Our Strategy" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -328,13 +349,30 @@ const AboutUs = () => {
           <div className="space-55"></div>
           <div className="row justify-content-center">
             <div className="col-lg-4 col-md-6 mb-30">
+              <div className="icon-box-s2 s2 border-s1 bg bg4 text-center">
+                <div className="icon-main">
+                  <span className="flaticon-code"></span>
+                </div>
+                <div className="content-box">
+                  <h5>
+                    <Link to={"#"}>Global Collaboration</Link>
+                  </h5>
+                  <p>
+                    Championing collaboration, we leverage global partnerships
+                    to build an interconnected ecosystem, enabling seamless and
+                    inclusive cross-border payments with efficiency at its core.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 mb-30">
               <div className="icon-box-s2 s2 border-s1 bg bg3 text-center">
                 <div className="icon-main">
                   <span className="flaticon-monitor"></span>
                 </div>
                 <div className="content-box">
                   <h5>
-                    <a href="">Reliability & Compliance</a>
+                    <Link to={"#"}>Reliability & Compliance</Link>
                   </h5>
                   <p>
                     We ensure secure, efficient cross-border payments with
@@ -345,24 +383,7 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 mb-30">
-              <div className="icon-box-s2 s2 border-s1 bg bg4 text-center">
-                <div className="icon-main">
-                  <span className="flaticon-code"></span>
-                </div>
-                <div className="content-box">
-                  <h5>
-                    <a href="#">Global Collaboration</a>
-                  </h5>
-                  <p>
-                    We believe in the power of collaboration. By fostering
-                    partnerships and networks globally, we create an
-                    interconnected ecosystem that facilitates efficient and
-                    inclusive cross-border payments.
-                  </p>
-                </div>
-              </div>
-            </div>
+
             <div className="col-lg-4 col-md-6 mb-30">
               <div className="icon-box-s2 s2 border-s1 bg bg2 text-center">
                 <div className="icon-main">
@@ -370,13 +391,12 @@ const AboutUs = () => {
                 </div>
                 <div className="content-box">
                   <h5>
-                    <a href="#">Inclusivity</a>
+                    <Link to={"#"}>Inclusivity</Link>
                   </h5>
                   <p className="mt-1">
-                    We Promote global financial inclusion through accessible
-                    cross-border payments, enabling individuals and businesses,
-                    irrespective of location or financial background, to
-                    participate in the economy.
+                    We empowers all by promoting global financial inclusion with
+                    accessible cross-border payments, regardless of location or
+                    financial background, fostering economic participation.
                   </p>
                 </div>
               </div>
@@ -407,7 +427,7 @@ const AboutUs = () => {
                 </div>
                 <div className="content-box">
                   <h5>
-                    <a href="#">International money transfer</a>
+                    <Link to={"#"}>International Money Transfer</Link>
                   </h5>
                   <p>
                     Streamline transactions with our cross-border payment system
@@ -423,7 +443,7 @@ const AboutUs = () => {
                 </div>
                 <div className="content-box">
                   <h5>
-                    <a href="#">Wallet enablement</a>
+                    <Link to={"#"}>Wallet enablement</Link>
                   </h5>
                   <p>
                     Enable millions of wallet holders to make cross-border
@@ -439,7 +459,7 @@ const AboutUs = () => {
                 </div>
                 <div className="content-box">
                   <h5>
-                    <a href="">Corporate disbursement</a>
+                    <Link to={"#"}>Corporate disbursement</Link>
                   </h5>
                   <p>
                     Power your growth with Upayza eliminating barriers for fast,
@@ -455,7 +475,7 @@ const AboutUs = () => {
                 </div>
                 <div className="content-box">
                   <h5>
-                    <a href="#">Collections</a>
+                    <Link to={"#"}>Collections</Link>
                   </h5>
                   <p>
                     Streamline global payments, integrate with Upayza, and tap
@@ -471,7 +491,7 @@ const AboutUs = () => {
                 </div>
                 <div className="content-box">
                   <h5>
-                    <a href="#">Mobile Payment Interoperability</a>
+                    <Link to={"#"}>Mobile Payment Interoperability</Link>
                   </h5>
                   <p className="mt-1">
                     Fosters collaboration, interoperability for mobile payment.
@@ -531,7 +551,7 @@ const AboutUs = () => {
               <div className="space-20"></div>
             </div>
           </div>
-          <div className="row no-margin">
+          {/*<div className="row no-margin">
             <div className="col-lg-3 col-md-6 no-padding">
               <div className="team-wrap v3">
                 <div className="team-thumb">
@@ -688,7 +708,7 @@ const AboutUs = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div>*/}
         </div>
       </section>
 
@@ -697,9 +717,10 @@ const AboutUs = () => {
           <div className="row">
             <div className="col-md-12 text-center">
               <p>
-                // Drop us a line! We are here to answer your questions 24/7
+                Connect with us to discover how Upayza® solves your global
+                <br />
+                payment needs. Reach out to our experts!
               </p>
-              <h2>NEED A CONSULTATION?</h2>
               <div className="ot-button">
                 <Link to={"/contacts"} className="octf-btn octf-btn-primary">
                   Contact Us

@@ -11,6 +11,7 @@ import {
 } from "../components";
 
 import React from "react";
+import { Link } from "react-router-dom";
 
 function AppView() {
   return (
@@ -91,7 +92,11 @@ function AppView() {
                   <div className="space-35"></div>
                   <div className="video-popup style-2">
                     <div className="btn-inner">
-                      <a className="btn-play" href="https://vimeo.com/94686522">
+                      <a
+                        className="btn-play"
+                        href="https://vimeo.com/897242899"
+                        target="blank"
+                      >
                         <i className="flaticon-play"></i>
                         <span className="circle-1"></span>
                         <span className="circle-2"></span>
@@ -245,9 +250,9 @@ function AppView() {
                 </p>
                 <div className="space-55"></div>
                 <div className="ot-button">
-                  <a href="#" className="octf-btn octf-btn-second btn-round">
+                  {/*<a href="#" className="octf-btn octf-btn-second btn-round">
                     all products
-                  </a>
+                  </a>*/}
                 </div>
               </div>
               <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
@@ -262,14 +267,14 @@ function AppView() {
                       transfers across borders instant, easier and more
                       efficient.
                       <ul>
-                        <li className="active">
-                          <a href="">Global remittances</a>
+                        <li>
+                          <Link to={"#"}>Global remittances</Link>
                         </li>
                         <li>
-                          <a href="">Easy Integration</a>
+                          <Link to={"#"}>Easy Integration</Link>
                         </li>
                         <li>
-                          <a href="">Business Payouts</a>
+                          <Link to={"#"}>Business Payouts</Link>
                         </li>
                       </ul>
                     </div>
@@ -288,14 +293,14 @@ function AppView() {
                       an innovation that creates an open system for mobile
                       payment providers.
                       <ul>
-                        <li className="active">
-                          <a href="">Monitored Micro-payments</a>
+                        <li>
+                          <Link to={"#"}>Monitored Micro-payments</Link>
                         </li>
                         <li>
-                          <a href="">Enhanced Governance</a>
+                          <Link to={"#"}>Enhanced Governance</Link>
                         </li>
                         <li>
-                          <a href="">Ensured Stability</a>
+                          <Link to={"#"}>Ensured Stability</Link>
                         </li>
                       </ul>
                     </div>

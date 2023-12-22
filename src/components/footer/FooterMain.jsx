@@ -68,14 +68,14 @@ const FooterMain = () => {
                 </li>
                 <li>
                   <Link className="menu-item-has-children" to={"/contacts"}>
-                    Contacts
+                    Contact
                   </Link>
                 </li>
               </ul>
             </div>
             <div className="space-20"></div>
             <p className="copyright-text v2">
-              {new Date().getFullYear()} © <strong> Upayza Inc</strong> All
+              {new Date().getFullYear()} © <strong> Upayza Inc.</strong> All
               Rights Reserved. |{" "}
               <Link to={"#"} className="text-white">
                 Privacy notice{" "}
