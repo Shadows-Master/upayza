@@ -172,7 +172,12 @@ function AppView() {
               <div className="col-lg-4 col-md-6">
                 <div className="icon-box-s3">
                   <div className="top-box">
-                    <SVGIconMainFour />
+                    <img
+                      src={process.env.PUBLIC_URL + "/images/icons/money.svg"}
+                      alt=""
+                      height={50}
+                      width={50}
+                    />
                   </div>
                   <h5>Money Transfer Operators (MTOs)</h5>
                   <p>
@@ -184,7 +189,12 @@ function AppView() {
               <div className="col-lg-4 col-md-6">
                 <div className="icon-box-s3">
                   <div className="top-box">
-                    <SVGIconMainFive />
+                    <img
+                      src={process.env.PUBLIC_URL + "/images/icons/globe.svg"}
+                      alt=""
+                      height={53}
+                      width={53}
+                    />
                   </div>
                   <h5>Mobile Network Operators (MNOs)</h5>
                   <p>
@@ -196,7 +206,12 @@ function AppView() {
               <div className="col-lg-4 col-md-6">
                 <div className="icon-box-s3 mb-lg-0">
                   <div className="top-box">
-                    <SVGIconMainSix />
+                    <img
+                      src={process.env.PUBLIC_URL + "/images/icons/bill.svg"}
+                      alt=""
+                      height={50}
+                      width={50}
+                    />
                   </div>
                   <h5>Banks</h5>
                   <p>
@@ -208,7 +223,12 @@ function AppView() {
               <div className="col-lg-4 col-md-6">
                 <div className="icon-box-s3">
                   <div className="top-box">
-                    <SVGIconMainOne />
+                    <img
+                      src={process.env.PUBLIC_URL + "/images/icons/wallet.svg"}
+                      alt=""
+                      height={50}
+                      width={50}
+                    />
                   </div>
                   <h5>Financial institutions</h5>
                   <p>
@@ -220,7 +240,12 @@ function AppView() {
               <div className="col-lg-4 col-md-6">
                 <div className="icon-box-s3 mb-lg-0">
                   <div className="top-box">
-                    <SVGIconMainTwo />
+                    <img
+                      src={process.env.PUBLIC_URL + "/images/icons/gift.svg"}
+                      alt=""
+                      height={50}
+                      width={50}
+                    />
                   </div>
                   <h5>Merchants</h5>
                   <p>
