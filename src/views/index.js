@@ -10,3 +10,4 @@ export { default as About } from "./company_views/AboutUs";
 export { default as Teams } from "./company_views/Teams";
 export { default as CrossBorderMoney } from "./services_views/CrossBorderMoney";
 export { default as InteroperableMobile } from "./services_views/InteroperableMoney";
+export { default as Privacy } from "./Privacy";

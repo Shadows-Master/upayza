@@ -15,6 +15,7 @@ import {
   Teams,
   CrossBorderMoney,
   InteroperableMobile,
+  Privacy,
 } from "./views";
 
 const router = createBrowserRouter([
@@ -59,6 +60,7 @@ const router = createBrowserRouter([
       { path: "/who-we-serve", element: <WhoWeServe /> },
       { path: "/network", element: <Network /> },
       { path: "/contacts", element: <Contacts /> },
+      { path: "/privacy", element: <Privacy /> },
     ],
   },
 ]);

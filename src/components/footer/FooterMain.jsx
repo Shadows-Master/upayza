@@ -81,7 +81,7 @@ const FooterMain = () => {
             <p className="copyright-text v2">
               {new Date().getFullYear()} © <strong> Upayza Inc.</strong> All
               Rights Reserved. |{" "}
-              <Link to={"#"} className="text-white">
+              <Link to={"/privacy"} className="text-white">
                 Privacy notice{" "}
               </Link>
             </p>

@@ -107,7 +107,7 @@ const Footer = () => {
           <div className="col-md-6 text-left text-md-right align-self-center">
             <p className="copyright-text">
               {new Date().getFullYear()} © <strong> Upayza Inc.</strong> All
-              Rights Reserved. | <Link to={"#"}> Privacy notice </Link>
+              Rights Reserved. | <Link to={"/privacy"}> Privacy notice </Link>
             </p>
           </div>
           <div className="space-35"></div>

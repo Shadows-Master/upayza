@@ -192,8 +192,8 @@ function AppView() {
                     <img
                       src={process.env.PUBLIC_URL + "/images/icons/globe.svg"}
                       alt=""
-                      height={53}
-                      width={53}
+                      height={50}
+                      width={50}
                     />
                   </div>
                   <h5>Mobile Network Operators (MNOs)</h5>
