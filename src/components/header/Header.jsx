@@ -57,7 +57,11 @@ const Header = () => {
                 <div className="octf-col logo-col">
                   <div id="site-logo" className="site-logo">
                     <Link to={""}>
-                      <img src="images/logo.svg" alt="Engitech" className="" />
+                      <img
+                        src={process.env.PUBLIC_URL + "/images/logo.svg"}
+                        alt="Upayza"
+                        className=""
+                      />
                     </Link>
                   </div>
                 </div>

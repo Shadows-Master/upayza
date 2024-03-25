@@ -7,7 +7,10 @@ const HeaderMobile = () => {
         <div className="mlogo_wrapper clearfix">
           <div className="mobile_logo">
             <a href="#">
-              <img src="images/logo.svg" alt="Upayza" />
+              <img
+                src={process.env.PUBLIC_URL + "/images/logo.svg"}
+                alt="Upayza"
+              />
             </a>
           </div>
           <div id="mmenu_toggle">
