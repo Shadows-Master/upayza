@@ -59,20 +59,20 @@ const FooterMain = () => {
             <div className="footer-menu">
               <ul>
                 <li>
-                  <Link to={""}>Home</Link>
+                  <Link to={""}>HOME</Link>
                 </li>
                 <li>
-                  <Link to={"/company/about"}>Company</Link>
+                  <Link to={"/company/about"}>COMPANY</Link>
                 </li>
                 <li>
-                  <Link to={"/services/cross-border-money"}>Products</Link>
+                  <Link to={"/services/cross-border-money"}>PRODUCTS</Link>
                 </li>
                 {/*<li>
                   <Link to={"/who-we-serve"}>Who we serve</Link>
                 </li>*/}
                 <li>
                   <Link className="menu-item-has-children" to={"/contacts"}>
-                    Contact
+                    CONNECT
                   </Link>
                 </li>
               </ul>
