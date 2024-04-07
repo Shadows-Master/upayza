@@ -10,34 +10,15 @@ const MobileMenu = () => {
               to={""}
               className="menu-item-has-children current-menu-item current-menu-ancestor"
             >
-              Home
+              HOME
             </Link>
           </li>
           <li>
-            <Link to={"#"} className="menu-item-has-children">
-              Company
-            </Link>
+            <Link to={"/company/about"}>COMPANY</Link>
+          </li>
+          <li className="menu-item-has-children">
+            <Link to={"#"}>PRODUCTS</Link>
 
-            <ul className="sub-menu">
-              <li>
-                <Link to={"/company/about"} href="#">
-                  About us
-                </Link>
-              </li>
-              {/*<li>
-            <a href="#">Why Choose Us</a>
-          </li>
-          <li>
-            <Link to={"/company/our-team"} href="#">
-              Our team
-            </Link>
-          </li>*/}
-            </ul>
-          </li>
-          <li>
-            <Link className="menu-item-has-children" to={"#"}>
-              Products
-            </Link>
             <ul className="sub-menu">
               <li>
                 <Link to={"/services/cross-border-money"}>
@@ -52,31 +33,7 @@ const MobileMenu = () => {
             </ul>
           </li>
           <li>
-            <Link className="menu-item-has-children" to={"#"}>
-              Who we serve
-            </Link>
-            <ul className="sub-menu">
-              <li>
-                <Link to={"#"}>Money Transfer Operator</Link>
-              </li>
-              <li>
-                <Link to={"#"}>Mobile Network Operators</Link>
-              </li>
-              <li>
-                <Link to={"#"}>Banks</Link>
-              </li>
-              <li>
-                <Link to={"#"}>Financial institutions</Link>
-              </li>
-              <li>
-                <Link to={"#"}>Merchants</Link>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <Link className="menu-item-has-children" to={"/contacts"}>
-              Contacts
-            </Link>
+            <Link to={"/contacts"}>CONNECT</Link>
           </li>
         </ul>
       </div>

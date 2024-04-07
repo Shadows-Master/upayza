@@ -25,8 +25,7 @@ function AppView() {
                 <div className="ot-heading">
                   <h2 className="main-heading">
                     Experience a universal payment ecosystem
-                    <br />
-                    enabling limitless cross-border transfers.{""}
+                    <br /> enabling limitless cross-border transfers.{""}
                   </h2>
                 </div>
                 <div className="space-10"></div>
@@ -38,7 +37,7 @@ function AppView() {
             <img
               src="images/banner-home6.png"
               alt=""
-              style={{ marginTop: "-13em", marginBottom: "16em" }}
+              style={{ marginTop: "-15em", marginBottom: "13em" }}
             />
           </div>
         </section>
@@ -89,10 +88,10 @@ function AppView() {
                       processes, enhancing security...
                     </li>
                   </ul>*/}
-                  <div className="space-35"></div>
+                  <div className="space-15"></div>
                   <div className="video-popup style-2">
                     <div className="btn-inner">
-                      <video controls width="500" autoPlay loop={true} muted>
+                      <video controls width="420" autoPlay loop={true} muted>
                         <source src="upayza.mp4" type="video/mp4" />
                         <p>
                           Sorry, Your Browser Doesn't Support Embedded Videos.
