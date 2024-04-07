@@ -12,24 +12,9 @@ const MainMenu = () => {
         </Link>
       </li>
       <li>
-        <Link to={"#"} className="menu-item-has-children">
+        <Link to={"/company/about"} className="menu-item-has-children">
           Company
         </Link>
-        <ul className="sub-menu">
-          <li>
-            <Link to={"/company/about"} href="#">
-              About us
-            </Link>
-          </li>
-          {/*<li>
-            <a href="#">Why Choose Us</a>
-          </li>
-          <li>
-            <Link to={"/company/our-team"} href="#">
-              Our team
-            </Link>
-          </li>*/}
-        </ul>
       </li>
       <li>
         <Link className="menu-item-has-children" to={"#"}>
