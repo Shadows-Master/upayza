@@ -18,15 +18,15 @@ function Privacy() {
             </div>
           </div>
         </div>
-        <div className="container">
-          <div className="row">
+        <div className="container pr-4 pl-4">
+          <div className="row pr-4 pl-4">
             <div className="technology-v3-left">
               <div className="ot-heading">
                 <div className="space-25"></div>
                 <h4 className="text-primary-light">1. Introduction</h4>
               </div>
               <div className="space-5"></div>
-              <p className="text-justify">
+              <p>
                 Upayza Inc. and our affiliates worldwide (collectively “Upayza,”
                 “we,” “us,” “our”, “ours”) value your privacy and are committed
                 to treating your data with respect. This privacy notice
@@ -48,7 +48,7 @@ function Privacy() {
                 <h4 className="text-primary-light">2. Purpose</h4>
               </div>
               <div className="space-5"></div>
-              <p className="text-justify">
+              <p>
                 Upayza respects your privacy and is committed to maintaining the
                 confidentiality and security of the information of its existing,
                 prospective, and former customers and beneficiaries. This
@@ -69,7 +69,7 @@ function Privacy() {
                 document are a subset of Upayza’s Organizational Privacy Policy.
                 <br />
               </p>
-              <span className="text-justify">
+              <span>
                 To the extent required by applicable law, whenever Upayza
                 collects personal information, Upayza will:
                 <br />
@@ -103,7 +103,7 @@ function Privacy() {
                 </h4>
               </div>
               <div className="space-5"></div>
-              <p className="text-justify">
+              <p>
                 We collect information about you mainly through our business
                 partners/service providers, Upayza’s Website, and third parties
                 or publicly available sources. This information includes
@@ -137,7 +137,7 @@ function Privacy() {
                 </h4>
               </div>
               <div className="space-5"></div>
-              <p className="text-justify">
+              <p>
                 Upayza collects the following information to provide you
                 services through our business partners.
                 <br />
@@ -198,7 +198,7 @@ function Privacy() {
                   technologies
                 </li>
               </ul>
-              <p className="text-justify">
+              <p>
                 As a payment solutions provider, Upayza has certain obligations
                 with regards to identity verification, fraud prevention, KYC
                 checks and other similar security purposes. To ensure compliance
@@ -217,7 +217,7 @@ function Privacy() {
                 </h4>
               </div>
               <div className="space-5"></div>
-              <p className="text-justify">
+              <p>
                 We use your information for providing services which may include
                 the following:
                 <br />
@@ -278,7 +278,7 @@ function Privacy() {
                 <li>Meeting insurance, audit, and processing requirements ;</li>
                 <li>Otherwise as permitted or required by law ;</li>
               </ul>
-              <p className="text-justify">
+              <p>
                 <span className="text-primary-light">Change of purpose </span>
                 <br />
                 Upayza will only use your personal information for the purposes
@@ -289,7 +289,7 @@ function Privacy() {
                 rules, where it is required or permitted by law.
                 <br />
               </p>
-              <p className="text-justify">
+              <p>
                 <span className="text-primary-light">Marketing choices </span>
                 <br />
                 Users may opt out of receiving certain marketing communications
@@ -310,13 +310,13 @@ function Privacy() {
                 </h4>
               </div>
               <div className="space-5"></div>
-              <p className="text-justify">
+              <p>
                 We will process your information only if and to the extent that
                 at least one of the following applies:
                 <br />
               </p>
 
-              <p className="text-justify">
+              <p>
                 <span className="text-primary-light">
                   Compliance with Legal Obligations{" "}
                 </span>
@@ -327,7 +327,7 @@ function Privacy() {
                 court order or judicial proceedings.
                 <br />
               </p>
-              <p className="text-justify">
+              <p>
                 <span className="text-primary-light">
                   Legitimate Interests{" "}
                 </span>
@@ -340,14 +340,14 @@ function Privacy() {
                 internal record keeping purposes and fraud prevention.
                 <br />
               </p>
-              <p className="text-justify">
+              <p>
                 <span className="text-primary-light"> Contract </span>
                 <br />
                 Upayza may process your Personal Information as required to
                 comply with our contractual obligations.
                 <br />
               </p>
-              <p className="text-justify">
+              <p>
                 <span className="text-primary-light"> Consent </span>
                 <br />
                 Upayza may process Personal Information for certain purposes
@@ -365,14 +365,14 @@ function Privacy() {
                 </h4>
               </div>
               <div className="space-5"></div>
-              <p className="text-justify">
+              <p>
                 To carry out the processing activities established in this
                 Privacy Notice, Upayza may disclose your Personal Information
                 to:
                 <br />
               </p>
 
-              <p className="text-justify">
+              <p>
                 <span className="text-primary-light">Data Processors </span>
                 <br />
                 Upayza may share your Personal Information with third-party
@@ -385,7 +385,7 @@ function Privacy() {
                 directed by us.
                 <br />
               </p>
-              <p className="text-justify">
+              <p>
                 <span className="text-primary-light">
                   Third-party data controllers/joint controllers{" "}
                 </span>
@@ -401,7 +401,7 @@ function Privacy() {
                 products and/or services.
                 <br />
               </p>
-              <p className="text-justify">
+              <p>
                 <span className="text-primary-light"> Successors </span>
                 <br />
                 If Upayza is purchased by/sold to a third party, Personal
@@ -409,7 +409,7 @@ function Privacy() {
                 entity.
                 <br />
               </p>
-              <p className="text-justify">
+              <p>
                 <span className="text-primary-light">
                   {" "}
                   Relevant Authorities{" "}
@@ -432,7 +432,7 @@ function Privacy() {
                 </h4>
               </div>
               <div className="space-5"></div>
-              <p className="text-justify">
+              <p>
                 In connection with providing services to our customers, we may
                 transfer your Personal Information to countries outside your
                 country of residence. These countries may have data protection
@@ -450,7 +450,7 @@ function Privacy() {
                 Information for”.
               </p>
 
-              <p className="text-justify">
+              <p>
                 <span className="text-primary-light">Minor </span>
                 <br />
                 We do not collect any information of children below 18 years of
@@ -466,7 +466,7 @@ function Privacy() {
                 </h4>
               </div>
               <div className="space-5"></div>
-              <p className="text-justify">
+              <p>
                 We respect your privacy and your information is important to us
                 as it is to you. Upayza takes all reasonable steps to ensure
                 that all information collected through our services and business
@@ -498,7 +498,7 @@ function Privacy() {
                 </h4>
               </div>
               <div className="space-5"></div>
-              <p className="text-justify">
+              <p>
                 At Upayza, we retain the personal information as required or
                 permitted by law. In all cases, Upayza only retains the Personal
                 Information for as long as it is necessary for the purposes
@@ -538,34 +538,34 @@ function Privacy() {
                 </h4>
               </div>
               <div className="space-5"></div>
-              <p className="text-justify">
+              <p>
                 You have rights over your Personal Information. In summary,
                 these are:
                 <br />
               </p>
 
-              <p className="text-justify">
+              <p>
                 <span className="text-primary-light"> Right to know </span>
                 <br />
                 You have the right to receive certain information about how your
                 Personal Information is processed.
                 <br />
               </p>
-              <p className="text-justify">
+              <p>
                 <span className="text-primary-light"> Right to access </span>
                 <br />
                 You have the right to access and receive a copy of your Personal
                 Information.
                 <br />
               </p>
-              <p className="text-justify">
+              <p>
                 <span className="text-primary-light">Right to rectify </span>
                 <br />
                 You are the owner of your information and have the right to have
                 inaccuracies related to your Personal Information corrected.
                 <br />
               </p>
-              <p className="text-justify">
+              <p>
                 <span className="text-primary-light">
                   Right to portability{" "}
                 </span>
@@ -576,7 +576,7 @@ function Privacy() {
                 party/service provider appointed by you.
                 <br />
               </p>
-              <p className="text-justify">
+              <p>
                 <span className="text-primary-light">Right to erase </span>
                 <br />
                 You have the right to request deletion of your Personal
@@ -592,7 +592,7 @@ function Privacy() {
                 </h4>
               </div>
               <div className="space-5"></div>
-              <p className="text-justify">
+              <p>
                 <span className="text-primary-light">
                   a) Data subjects in EU / EEA{" "}
                 </span>
@@ -608,21 +608,21 @@ function Privacy() {
                 also have other rights including:
                 <br />
               </p>
-              <p className="text-justify">
+              <p>
                 <span className="text-primary-light"> Right to restrict </span>
                 <br />
                 The right to restrict or limit the way we process your Personal
                 Information in certain circumstances.
                 <br />
               </p>
-              <p className="text-justify">
+              <p>
                 <span className="text-primary-light">Right to object </span>
                 <br />
                 You also have the right to object to Upayza’s data processing
                 activities including automated processing, data profiling etc.
                 <br />
               </p>
-              <p className="text-justify">
+              <p>
                 <span className="text-primary-light">
                   b) Data Subjects residing in India: Cross Border Information
                   Transfers:
@@ -649,7 +649,7 @@ function Privacy() {
                 </ul>
                 <br />
               </p>
-              <p className="text-justify">
+              <p>
                 <span className="text-primary-light">
                   c) Data Subjects residing in Kenya Cross Border Information
                   Transfers
@@ -679,7 +679,7 @@ function Privacy() {
                 </h4>
               </div>
               <div className="space-5"></div>
-              <p className="text-justify">
+              <p>
                 <br />
                 We review and update our Privacy Notice from time to time.
                 Therefore, we encourage you to periodically review this page to
@@ -693,7 +693,7 @@ function Privacy() {
                 <h4 className="text-primary-light">14. Contact us</h4>
               </div>
               <div className="space-5"></div>
-              <p className="text-justify">
+              <p>
                 <br />
                 If you wish to exercise any of your rights, or if you want to
                 know about how we use or protect your information or if you have

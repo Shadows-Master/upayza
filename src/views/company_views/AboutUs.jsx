@@ -238,7 +238,7 @@ const AboutUs = () => {
                   <h2 className="main-heading text-white"></h2>
                 </div>
                 <div className="space-5"></div>
-                <p className="text-white text-justify">
+                <p className="text-white">
                   UPAYZA is a cross-border payments company, connecting
                   digital/mobile wallets around the world. We collaborate with
                   Money Transfer Operators (MTOs), Mobile Money Operators
