@@ -34,7 +34,7 @@ const InteroperableMobile = () => {
                   </h2>
                 </div>
                 <div className="space-5"></div>
-                <p className="text-justify">
+                <p>
                   Our innovative mobile payment switch fosters interoperability
                   among providers, creating an open system for seamless
                   transactions. With a centralized ledger, it integrates users,
@@ -43,7 +43,7 @@ const InteroperableMobile = () => {
                   switching, and monitoring of mobile payments.
                 </p>
                 <p>
-                  <em className="text-dark text-justify">
+                  <em className="text-dark">
                     <strong>
                       Operating 24x7, it processes financial and non-financial
                       transactions in real-time, promoting swift and secure
@@ -140,7 +140,7 @@ const InteroperableMobile = () => {
                 </div>
                 <div className="content-box">
                   <h5>Facilitated Financial Inclusion</h5>
-                  <p className="text-justify">
+                  <p>
                     Allows both banked and unbanked users to participate in the
                     financial system, promoting financial inclusion.
                   </p>
@@ -152,7 +152,7 @@ const InteroperableMobile = () => {
                 </div>
                 <div className="content-box">
                   <h5>Enhanced Governance</h5>
-                  <p className="text-justify">
+                  <p>
                     Provides full management and control over the entire mobile
                     payment’s ecosystem.
                   </p>
@@ -164,7 +164,7 @@ const InteroperableMobile = () => {
                 </div>
                 <div className="content-box">
                   <h5>Ensured Stability</h5>
-                  <p className="text-justify">
+                  <p>
                     Offers full control over the financial stability and
                     compliance of mobile payment participants.
                   </p>
@@ -183,7 +183,7 @@ const InteroperableMobile = () => {
                 </div>
                 <div className="content-box">
                   <h5>Monitored Micro-payments </h5>
-                  <p className="text-justify">
+                  <p>
                     Enables micro-payments monitoring for efficient microfinance
                     statistical data collection.
                   </p>
@@ -195,7 +195,7 @@ const InteroperableMobile = () => {
                 </div>
                 <div className="content-box">
                   <h5>Monopoly Prevention</h5>
-                  <p className="text-justify">
+                  <p>
                     Enables an interoperable system preventing monopolies in
                     mobile payment services.
                   </p>
@@ -207,7 +207,7 @@ const InteroperableMobile = () => {
                 </div>
                 <div className="content-box">
                   <h5>Trading Systems</h5>
-                  <p className="text-justify">
+                  <p>
                     Allows both banked and unbanked users to participate in the
                     financial system, promoting financial inclusion.
                   </p>

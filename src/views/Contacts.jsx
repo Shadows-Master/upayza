@@ -29,8 +29,8 @@ function Contacts() {
                   <div className="ot-heading">
                     {" "}
                     <h4 className="main-heading">
-                      Drop your questions or inquiries; our team will get in
-                      touch with you shortly.Thank you!"
+                      Please leave your questions or inquiries; our team will
+                      contact you soon. <br /> Thank you!
                     </h4>
                   </div>
                   <div className="space-5"></div>

@@ -24,8 +24,9 @@ function AppView() {
               <div className="col-md-12 text-center">
                 <div className="ot-heading">
                   <h2 className="main-heading">
-                    Experience a universal payment ecosystem
-                    <br /> enabling limitless cross-border transfers.{""}
+                    Explore a global payment system for seamless cross-border
+                    transactions.
+                    <br />
                   </h2>
                 </div>
                 <div className="space-10"></div>
@@ -57,7 +58,7 @@ function AppView() {
                       Creating a worldwide payment ecosystem
                     </h2>
                   </div>
-                  <p className="text-justify">
+                  <p>
                     Upayza is building a comprehensive global payment
                     infrastructure to enhance the payment experience. Through a
                     seamless connection to Upayzas' APIs, your business and
@@ -66,7 +67,7 @@ function AppView() {
                     of the world.
                     <br /> <br /> We provide convergence and interoperability.
                     Our mission is to empower our partners in scaling their
-                    digital payment strategies
+                    digital payment strategies.
                   </p>
                   <div className="space-10"></div>
                   {/*<ul className="style-none">
@@ -312,7 +313,7 @@ function AppView() {
                   </div>
                   <div className="content-box">
                     <h5>Interoperable Mobile Payment Switch</h5>
-                    <div className="text-justify">
+                    <div>
                       Our revolutionary interoperable mobile payment switch is
                       an innovation that creates an open system for mobile
                       payment providers.

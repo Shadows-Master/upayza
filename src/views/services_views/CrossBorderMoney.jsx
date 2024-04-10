@@ -30,18 +30,18 @@ const CrossBorderMoney = () => {
                   <span>Overview</span>
                   <h2 className="main-heading">
                     Instant International <br />
-                    transfers for your customers
+                    money transfers for your customers
                   </h2>
                 </div>
                 <div className="space-5"></div>
-                <p className="text-justify">
+                <p>
                   Upayza's platform streamlines global payments, ensuring
                   instant and efficient cross-border money transfers. We
                   facilitate cashless transactions, providing flexible options
                   for real-time business growth.
                 </p>
                 <p>
-                  <em className="text-dark text-justify">
+                  <em className="text-dark">
                     <strong>
                       Through our API, partners, such as MTOs, MNOs, banks,
                       financial institutions, merchants, fintechs, can make
@@ -139,7 +139,7 @@ const CrossBorderMoney = () => {
                 </div>
                 <div className="content-box">
                   <h5>Real Time</h5>
-                  <p className="text-justify">
+                  <p>
                     Our technology ensures instant and convenient payment
                     processing, setting a new standard for speed and user
                     experience.
@@ -152,7 +152,7 @@ const CrossBorderMoney = () => {
                 </div>
                 <div className="content-box">
                   <h5>Robust</h5>
-                  <p className="text-justify">
+                  <p>
                     Our robust network can process millions of transactions
                     yearly, leveraging strong local knowledge and direct
                     connections, even in challenging markets.
@@ -165,7 +165,7 @@ const CrossBorderMoney = () => {
                 </div>
                 <div className="content-box">
                   <h5>Direct</h5>
-                  <p className="text-justify">
+                  <p>
                     UPAYZA network thrives on direct connections, ensuring
                     higher transaction success rates, efficient issue
                     resolution, and a seamless payment experience.
@@ -188,7 +188,7 @@ const CrossBorderMoney = () => {
                 </div>
                 <div className="content-box">
                   <h5>Transparent </h5>
-                  <p className="text-justify">
+                  <p>
                     We provide real-time reporting including instant payment
                     confirmation and enriched transaction information.
                   </p>
@@ -200,7 +200,7 @@ const CrossBorderMoney = () => {
                 </div>
                 <div className="content-box">
                   <h5>Scalable</h5>
-                  <p className="text-justify">
+                  <p>
                     We continually expand with new partners and payment methods,
                     offering scalable and customized solutions for your needs.
                   </p>
@@ -212,7 +212,7 @@ const CrossBorderMoney = () => {
                 </div>
                 <div className="content-box">
                   <h5>Inclusive</h5>
-                  <p className="text-justify">
+                  <p>
                     Our network is fully interoperable and tailored for popular
                     local payment methods.
                   </p>
