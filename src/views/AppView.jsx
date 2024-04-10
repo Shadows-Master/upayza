@@ -59,15 +59,14 @@ function AppView() {
                     </h2>
                   </div>
                   <p>
-                    Upayza is building a comprehensive global payment
-                    infrastructure to enhance the payment experience. Through a
-                    seamless connection to Upayzas' APIs, your business and
-                    customers gain the capability to effortlessly send and
-                    receive payments globally, instantly reaching every corner
-                    of the world.
-                    <br /> <br /> We provide convergence and interoperability.
-                    Our mission is to empower our partners in scaling their
-                    digital payment strategies.
+                    Upayza is building a global payment system to enhance
+                    payment experiences worldwide. A simple connection to
+                    Upayza's APIs enables businesses and customers to easily
+                    send and receive payments globally, ensuring instant
+                    transactions across the globe.
+                    <br /> We prioritize convergence and interoperability to
+                    support partners in expanding their digital payment
+                    strategies.
                   </p>
                   <div className="space-10"></div>
                   {/*<ul className="style-none">

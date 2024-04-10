@@ -9,12 +9,10 @@ const AboutUs = () => {
             <div className="col-md-12">
               <div className="top-heading">
                 <div className="ot-heading">
-                  <h3 className="main-heading text-white">
-                    At Upayza, we strive to redefine possibilities for your
-                    business.
-                    <br /> Our belief is simple: payments should transcend
-                    borders, be effortlessly smooth, and, above all, comply with
-                    regulations.
+                  <h3 className="main-heading text-white font-i9 font-weight-bold">
+                    At Upayza, we revolutionize your business with secure, fast,
+                    <br />
+                    and compliant cross-border payments.
                   </h3>
                 </div>
               </div>
